@@ -15,7 +15,7 @@ function reducer(state = initialState, action = {}) {
           ...state,
           isBurgerOpen: false,
         };
-        
+
         default:
       return state;
   }
