@@ -1,0 +1,27 @@
+.navbar {
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+display: none;
+@media(min-width: 768px){
+    list-style-type: none;
+    display: flex;
+    }
+
+
+    &__menu {
+        display: none;
+        
+        @media(min-width: 768px){
+            list-style-type: none;
+            display: flex;
+            }
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
+}
