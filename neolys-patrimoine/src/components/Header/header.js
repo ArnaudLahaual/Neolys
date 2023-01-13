@@ -5,8 +5,6 @@ import NavbarMobile from './NavbarMobile/navbarmobile';
 import logo from '../../assets/logo/logo__white.jpg';
 
 import { FiMenu } from 'react-icons/fi';
-import { toggleBurger, closeBurger } from '../../actions/neolys';
-
 
 // == Composant
 function Header() {
