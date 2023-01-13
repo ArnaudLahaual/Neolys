@@ -3,9 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: lightblue;
 
 
     @media(min-width: 768px){
-        // display: none;
+        display: none;
         }
 }
