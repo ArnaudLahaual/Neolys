@@ -1,12 +1,15 @@
 // == Import
 import './navbarmobile.scss';
-import { FiMenu } from 'react-icons/fi';
+
 
 // == Composant
 function NavbarMobile() {
   return (
     <div className="navbarmobile">
-      <FiMenu size={40} />
+        <ul className='navbar__menu'>
+                <li className='navbar__links'>ta mere la teup</li>
+            
+            </ul>
     </div>
   );
 }
