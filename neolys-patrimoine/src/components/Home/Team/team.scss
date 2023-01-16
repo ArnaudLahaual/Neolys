@@ -1,0 +1,67 @@
+.team {
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    
+    &__picture {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+
+    }
+
+    &__admins {
+        object-fit: cover;
+        overflow: hidden;
+
+        @media(min-width: 768px){
+            display: flex;
+            }
+    }
+
+    &__title {
+        appearance: none;
+        background-color: #C9B263;
+        border-radius: 0.9375em;
+        color: #3B3B3B;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        min-height: 0;
+        min-width: 0;
+        outline: none;
+        padding: 0.5em 1.3em;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        will-change: transform;
+        margin: 10px;
+
+        &:disabled{
+            pointer-events: none;
+                   }
+        
+        &:hover {
+            color: black;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+                   }
+                   
+            &:active {
+            box-shadow: none;
+            transform: translateY(0);
+                   }
+    }
+}
