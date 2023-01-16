@@ -4,12 +4,12 @@ overflow: hidden;
     &__home {
         width: 100%;
         height: 300px;
-        position: absolute;
+   
         object-fit: cover;
     }
 
     &__text {
-        position: relative;
+   
         top: 40px;
         color: black;
         text-transform: uppercase;

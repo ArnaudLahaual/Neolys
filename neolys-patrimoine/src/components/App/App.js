@@ -2,6 +2,7 @@ import './app.scss'
 import Header from '../Header/header';
 import React from 'react';
 import Home from '../Home/home';
+import Team from '../Home/Team/team';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
       </header>
         <Home />
+        <Team />
     </div>
   );
 }
