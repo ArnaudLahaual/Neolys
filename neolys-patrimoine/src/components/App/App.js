@@ -1,6 +1,7 @@
 import './app.scss'
 import Header from '../Header/header';
 import React from 'react';
+import Home from '../Home/home';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="app-header">
         <Header />
       </header>
+        <Home />
     </div>
   );
 }
