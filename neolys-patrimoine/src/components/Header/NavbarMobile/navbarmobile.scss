@@ -1,12 +1,8 @@
 .navbarmobile {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: lightblue;
-
+background-color: lightcoral;
+display: block;
 
     @media(min-width: 768px){
-        display: none;
+
         }
 }

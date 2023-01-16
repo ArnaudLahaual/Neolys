@@ -23,7 +23,7 @@ const {isBurgerOpen} = useSelector((state)=>state);
 console.log(isBurgerOpen);
 
 function handleClick() {
-  dispatch((toggleBurger));
+  dispatch(toggleBurger());
 }
 
   return (
@@ -37,10 +37,10 @@ function handleClick() {
           </div>
           
         <Navbar />
-        <NavbarMobile />
+        
         <div className='icone-burger' onClick={handleClick}><FiMenu size={40} /></div>
 
-        {/* { isBurgerOpen && <NavbarMobile /> } */}
+        { isBurgerOpen && <NavbarMobile /> }
 
     </div>
   );
