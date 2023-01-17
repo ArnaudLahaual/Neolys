@@ -103,6 +103,9 @@ border-bottom: 1px solid #C9B263;
             -webkit-user-select: none;
             touch-action: manipulation;
             will-change: transform;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
 
             &:disabled{
                 pointer-events: none;
