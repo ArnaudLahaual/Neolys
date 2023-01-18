@@ -17,8 +17,8 @@ function SlideShow() {
 
         <div className='containerSlide'>
 
-            <div className='containerSlide__title'>
-                <h1>Nos Partenaires</h1>
+            <div className='containerSlide__div'>
+                <h1 className='containerSlide__title'>Nos Partenaires</h1>
             </div>
         
         <Slide {...proprietes}>
