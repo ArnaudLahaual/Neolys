@@ -8,6 +8,8 @@ import {useSelector,useDispatch} from 'react-redux';
 import { toggleBurger,closeBurger } from '../../actions/neolys';
 import {useLocation} from 'react-router-dom';
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // == Composant
 function Header() {
@@ -40,11 +42,11 @@ function handleClick() {
 
           {/* menu */}
           <ul className='navbar__menu'>
-              <li className='navbar__links'>Accueil</li>
-              <li className='navbar__links'>Qui-sommes-nous</li>
-              <li className='navbar__links'>Nos services</li>
-              <li className='navbar__links'>Nos agréments</li>
-              <li className='navbar__links'>Contacts</li>
+              <li><a href='/'  className='navbar__links'>Accueil</a></li>
+              <li><a href='#team'  className='navbar__links'>Qui-sommes-nous</a></li>
+              <li><a href='#services'  className='navbar__links'>Nos services</a></li>
+              <li><a href='#agrements'  className='navbar__links'>Nos agréments</a></li>
+              <li><a href='#contacts'  className='navbar__links'>Contacts</a></li>
           </ul>
 
           {/* Mobile */}

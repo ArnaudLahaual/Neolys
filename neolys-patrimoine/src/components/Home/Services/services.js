@@ -6,7 +6,7 @@ import {FaHandsHelping} from 'react-icons/fa';
 
 function Services() {
     return (
-      <div className="services">
+      <div className="services" id='services'>
           <h1 className='services__title'>Nos services</h1>
 
           <div className='services__div'>

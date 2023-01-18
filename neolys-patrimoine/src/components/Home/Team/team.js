@@ -9,7 +9,7 @@ import hammer from '../../../assets/images/hammer.png';
 
 function Team() {
   return (
-    <div className="team">
+    <div className="team" id='team'>
 
         <p className="team__title">Pourquoi faire appel a nous ?</p> 
 
