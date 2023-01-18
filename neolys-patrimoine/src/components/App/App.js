@@ -4,6 +4,8 @@ import React from 'react';
 import Home from '../Home/home';
 import Team from '../Home/Team/team';
 import Services from '../Home/Services/services';
+import SlideShow from '../Home/Slideshow/slideshow';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Home />
         <Team />
         <Services />
+        <SlideShow />
     </div>
   );
 }
