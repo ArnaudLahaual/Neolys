@@ -5,6 +5,7 @@ import Home from '../Home/home';
 import Team from '../Home/Team/team';
 import Services from '../Home/Services/services';
 import SlideShow from '../Home/Slideshow/slideshow';
+import Agrements from '../Home/Agrements/agrements';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Team />
         <Services />
         <SlideShow />
+        <Agrements />
     </div>
   );
 }
