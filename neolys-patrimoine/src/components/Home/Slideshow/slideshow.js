@@ -15,7 +15,7 @@ const proprietes = {
 function SlideShow() {
   return (
 
-        <div className='containerSlide'>
+        <div className='containerSlide' id='partenaires'>
 
             <div className='containerSlide__div'>
                 <h1 className='containerSlide__title'>Nos Partenaires</h1>

@@ -27,9 +27,11 @@ border-bottom: 1px solid #C9B263;
     width: 100%;
     display: flex;
     justify-content: space-around;   
+
         
     &__menu {
     display: none;
+    scroll-behavior: smooth;
 
                 @media(min-width: 768px){
                     list-style-type: none;
