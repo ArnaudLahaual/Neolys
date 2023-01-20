@@ -1,7 +1,25 @@
 import './form.scss';
 import {MdContactMail} from 'react-icons/md';
+import {useDispatch, useSelector} from 'react-redux'
+import {changeFieldValue} from '../../../actions/neolys';
 
 function Form() {
+
+const dispatch = useDispatch();
+
+const handleChange = (evt) => {
+  dispatch(changeFieldValue(
+    evt.target.name, evt.target.value
+  ))
+};
+const {
+  lastname, 
+  firstname,
+  mail,
+  tel,
+  message,
+} = useSelector((state) => state);
+
 
   return (
     <div className="registration" id='contacts'>
@@ -16,6 +34,8 @@ function Form() {
             <label className='registration__form__label'>
                 Nom* 
                 <input
+                onChange={handleChange}
+                value={lastname}
                 className="registration__form__field" 
                 type="text"
                 name="lastname"
@@ -28,6 +48,8 @@ function Form() {
               <label className='registration__form__label'>
                 Prénom*
                 <input
+                onChange={handleChange}
+                value={firstname}
                 className="registration__form__field" 
                 type="text"
                 name="firstname"
@@ -41,6 +63,8 @@ function Form() {
               <label className='registration__form__label'>
                 Email*
                 <input
+                onChange={handleChange}
+                value={mail}
                 className="registration__form__field" 
                 type="mail"
                 name="mail"
@@ -53,6 +77,8 @@ function Form() {
               <label className='registration__form__label'>
                 Téléphone*
                 <input
+                onChange={handleChange}
+                value={tel}
                 className="registration__form__field" 
                 type="tel"
                 name="tel"
@@ -65,6 +91,8 @@ function Form() {
             <label className="registration__form__label">Votre message</label>
               <div>
                 <textarea
+                onChange={handleChange}
+                value={message}
                   className='registration__form__textarea' 
                   placeholder="Veuillez indiquer le contenu de votre message" 
                   name="message"

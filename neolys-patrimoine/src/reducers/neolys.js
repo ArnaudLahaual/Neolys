@@ -1,8 +1,12 @@
-import { TOGGLE_BURGER, CLOSE_BURGER  } from "../actions/neolys";
-
+import { TOGGLE_BURGER, CLOSE_BURGER,CHANGE_FIELD_VALUE  } from "../actions/neolys";
 
 export const initialState = {
     isBurgerOpen: false,
+    lastname: '',
+    firstname: '',
+    mail: '',
+    tel: '',
+    message:'',
   };
 
   function reducer(state = initialState, action = {}) {
@@ -17,8 +21,15 @@ export const initialState = {
           ...state,
           isBurgerOpen: false,
         };
+        case CHANGE_FIELD_VALUE:
+        return {
+          ...state,
+          // On accède à la clef de manière dynamique avec la notation []
+          // => email: 'la valeur...',
+          [action.field]: action.value,
+        };
+
        
-  
       default:
         return state;
     }
