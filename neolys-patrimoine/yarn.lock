@@ -1681,6 +1681,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emailjs/browser@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@emailjs/browser@npm:3.10.0"
+  checksum: e54784bb938b333dc2ba3d68ddf1c7322071651372da9a23ee0f5a9eb444c6b6a65155aec9c4570f3db7bac4926e30627b052ea90f0994e7be57298b9964b781
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^1.4.1":
   version: 1.4.1
   resolution: "@eslint/eslintrc@npm:1.4.1"
@@ -5314,6 +5321,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emailjs-com@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "emailjs-com@npm:3.2.0"
+  checksum: c6d0a1d60786405482928efcb33e9fda9e1c131a0380a1861b73a1f1139923794fbbb6679d83c632b4a2cf2d2dbe08541dd68db61ce78db6ed28b6ed68b4e00f
+  languageName: node
+  linkType: hard
+
 "emittery@npm:^0.10.2":
   version: 0.10.2
   resolution: "emittery@npm:0.10.2"
@@ -8901,10 +8915,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "neolys-patrimoine@workspace:."
   dependencies:
+    "@emailjs/browser": ^3.10.0
     "@reduxjs/toolkit": ^1.9.1
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
     "@testing-library/user-event": ^13.5.0
+    emailjs-com: ^3.2.0
     react: ^18.2.0
     react-dom: ^18.2.0
     react-redux: ^8.0.5
