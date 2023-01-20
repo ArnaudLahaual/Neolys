@@ -10,6 +10,8 @@ function Form() {
     
         <form className='registration__form'>
 
+      <div className='fields'>
+      <div className='name'>
           {/* Nom */}
             <label className='registration__form__label'>
                 Nom* 
@@ -33,7 +35,8 @@ function Form() {
                 required="required"
                 />
             </label>
-
+  </div>
+  <div className='infos'>
               {/* Email */}
               <label className='registration__form__label'>
                 Email*
@@ -57,7 +60,8 @@ function Form() {
                 required="required"
                 />
             </label>
-
+  </div>
+  </div>
             <label className="registration__form__label">Votre message</label>
               <div>
                 <textarea
