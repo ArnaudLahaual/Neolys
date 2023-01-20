@@ -20,7 +20,7 @@ useEffect(() => {
   dispatch(closeBurger());
 }, [pathname]);
 
-const {isBurgerOpen} = useSelector((state)=>state);
+const {isBurgerOpen} = useSelector((state)=>state.neolys);
 
 function handleClick() {
   dispatch(toggleBurger());
