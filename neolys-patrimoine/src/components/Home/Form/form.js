@@ -1,7 +1,7 @@
 import './form.scss';
 import {MdContactMail} from 'react-icons/md';
 import {useDispatch, useSelector} from 'react-redux'
-import {changeFieldValue} from '../../../actions/neolys';
+import {changeFieldValue} from '../../../actions/user';
 
 function Form() {
 
@@ -23,7 +23,7 @@ const {
   mail,
   tel,
   message,
-} = useSelector((state) => state);
+} = useSelector((state) => state.user);
 
 
   return (
