@@ -1,19 +1,46 @@
 import './form.scss';
 import {MdContactMail} from 'react-icons/md';
+import {useDispatch, useSelector} from 'react-redux'
+import {changeFieldValue} from '../../../actions/neolys';
 
 function Form() {
+
+const dispatch = useDispatch();
+
+const handleChange = (evt) => {
+  dispatch(changeFieldValue(
+    evt.target.name, evt.target.value
+  ))
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  }
+
+};
+const {
+  lastname, 
+  firstname,
+  mail,
+  tel,
+  message,
+} = useSelector((state) => state);
+
 
   return (
     <div className="registration" id='contacts'>
 
         <h1 className='registration__form__title '><MdContactMail />Formulaire de Contacts</h1>
     
-        <form className='registration__form'>
+        <form className='registration__form' name='contact'>
 
+      <div className='fields'>
+      <div className='name'>
           {/* Nom */}
-            <label className='registration__form__label'>
+            <label htmlFor='lastname' className='registration__form__label'>
                 Nom* 
                 <input
+                onChange={handleChange}
+                value={lastname}
                 className="registration__form__field" 
                 type="text"
                 name="lastname"
@@ -23,9 +50,11 @@ function Form() {
             </label>
 
             {/* Prénom */}
-              <label className='registration__form__label'>
+              <label htmlFor="firstname" className='registration__form__label'>
                 Prénom*
                 <input
+                onChange={handleChange}
+                value={firstname}
                 className="registration__form__field" 
                 type="text"
                 name="firstname"
@@ -33,13 +62,16 @@ function Form() {
                 required="required"
                 />
             </label>
-
+  </div>
+  <div className='infos'>
               {/* Email */}
-              <label className='registration__form__label'>
+              <label htmlFor="mail" className='registration__form__label'>
                 Email*
                 <input
+                onChange={handleChange}
+                value={mail}
                 className="registration__form__field" 
-                type="mail"
+                type="email"
                 name="mail"
                 placeholder='Votre email'
                 required="required"
@@ -47,20 +79,25 @@ function Form() {
             </label>
 
               {/* Téléphone */}
-              <label className='registration__form__label'>
+              <label htmlFor="tel" className='registration__form__label'>
                 Téléphone*
                 <input
+                onChange={handleChange}
+                value={tel}
                 className="registration__form__field" 
-                type="tel"
+                type="number"
                 name="tel"
                 placeholder='Votre téléphone'
                 required="required"
                 />
             </label>
-
-            <label className="registration__form__label">Votre message</label>
+  </div>
+  </div>
+            <label htmlFor="message" className="registration__form__label">Votre message</label>
               <div>
                 <textarea
+                onChange={handleChange}
+                value={message}
                   className='registration__form__textarea' 
                   placeholder="Veuillez indiquer le contenu de votre message" 
                   name="message"

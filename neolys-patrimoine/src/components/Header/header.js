@@ -21,7 +21,6 @@ useEffect(() => {
 }, [pathname]);
 
 const {isBurgerOpen} = useSelector((state)=>state);
-console.log(isBurgerOpen);
 
 function handleClick() {
   dispatch(toggleBurger());
