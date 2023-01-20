@@ -11,6 +11,11 @@ const handleChange = (evt) => {
   dispatch(changeFieldValue(
     evt.target.name, evt.target.value
   ))
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  }
+
 };
 const {
   lastname, 
@@ -26,12 +31,12 @@ const {
 
         <h1 className='registration__form__title '><MdContactMail />Formulaire de Contacts</h1>
     
-        <form className='registration__form'>
+        <form className='registration__form' name='contact'>
 
       <div className='fields'>
       <div className='name'>
           {/* Nom */}
-            <label className='registration__form__label'>
+            <label htmlFor='lastname' className='registration__form__label'>
                 Nom* 
                 <input
                 onChange={handleChange}
@@ -45,7 +50,7 @@ const {
             </label>
 
             {/* Prénom */}
-              <label className='registration__form__label'>
+              <label htmlFor="firstname" className='registration__form__label'>
                 Prénom*
                 <input
                 onChange={handleChange}
@@ -60,13 +65,13 @@ const {
   </div>
   <div className='infos'>
               {/* Email */}
-              <label className='registration__form__label'>
+              <label htmlFor="mail" className='registration__form__label'>
                 Email*
                 <input
                 onChange={handleChange}
                 value={mail}
                 className="registration__form__field" 
-                type="mail"
+                type="email"
                 name="mail"
                 placeholder='Votre email'
                 required="required"
@@ -74,13 +79,13 @@ const {
             </label>
 
               {/* Téléphone */}
-              <label className='registration__form__label'>
+              <label htmlFor="tel" className='registration__form__label'>
                 Téléphone*
                 <input
                 onChange={handleChange}
                 value={tel}
                 className="registration__form__field" 
-                type="tel"
+                type="number"
                 name="tel"
                 placeholder='Votre téléphone'
                 required="required"
@@ -88,7 +93,7 @@ const {
             </label>
   </div>
   </div>
-            <label className="registration__form__label">Votre message</label>
+            <label htmlFor="message" className="registration__form__label">Votre message</label>
               <div>
                 <textarea
                 onChange={handleChange}

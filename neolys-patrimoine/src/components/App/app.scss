@@ -4,10 +4,12 @@ body {
         font-family: "PTsans";
         font-weight: bold;
         scroll-behavior: smooth;
+        margin-top: 15vh;
 }
 
 .app {
         width: 100%;
+        overflow-x: hidden;
 }
 .app-header {
 display: flex;
