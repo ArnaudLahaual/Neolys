@@ -35,7 +35,6 @@ function App() {
         <Team />
         <Services />
         <SlideShow />
-        <Agrements />
         <Form />
     </div>
   );
