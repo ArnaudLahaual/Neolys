@@ -2,21 +2,50 @@ import './form.scss';
 import {MdContactMail} from 'react-icons/md';
 import {useDispatch, useSelector} from 'react-redux'
 import {changeFieldValue} from '../../../actions/user';
+import emailjs from '@emailjs/browser';
 
 function Form() {
 
 const dispatch = useDispatch();
 
+const handleSubmit = (data) => {
+  data.preventDefault()
+  alert("Merci pour votre message, il sera traité au plus vite")
+  const templateId = "template_nzlcy3c"; 
+  const serviceId = "service_msnbn38";
+  sendFeedback(serviceId,templateId, {
+    lastname: data.target.lastname.value,
+    firstname: data.target.firstname.value,
+    tel: data.target.tel.value,
+    mail: data.target.mail.value,
+    message: data.target.message.value,
+  });
+  data.target.lastname.value="";
+  data.target.firstname.value="";
+  data.target.tel.value="";
+  data.target.mail.value="";
+  data.target.message.value="";
+};
+
+const sendFeedback = (serviceId,templateId,variables) => {
+emailjs.send(
+  serviceId,templateId,variables, "H2vOtZv1UC6J3rxVt")
+.then((res) => {
+  console.log('success')
+
+})
+.catch((err) => {
+  console.error('Il y a une erreur')
+  alert("Votre message n'a pas pu être envoyé, veuillez vérifier les champs du formulaire")
+})
+};
+
 const handleChange = (evt) => {
   dispatch(changeFieldValue(
     evt.target.name, evt.target.value
-  ))
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  }
-
+  ));
 };
+
 const {
   lastname, 
   firstname,
@@ -31,7 +60,7 @@ const {
 
         <h1 className='registration__form__title '><MdContactMail />Formulaire de Contacts</h1>
     
-        <form className='registration__form' name='contact'>
+        <form className='registration__form' name='contact' onSubmit={handleSubmit}>
 
       <div className='fields'>
       <div className='name'>
