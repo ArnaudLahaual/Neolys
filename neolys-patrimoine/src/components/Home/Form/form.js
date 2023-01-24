@@ -7,12 +7,14 @@ import emailjs from '@emailjs/browser';
 function Form() {
 
 const dispatch = useDispatch();
+const url = process.env.REACT_APP_URL;
+console.log(url);
 
 const handleSubmit = (data) => {
   data.preventDefault()
   alert("Merci pour votre message, il sera traité au plus vite")
-  const templateId = "template_nzlcy3c"; 
-  const serviceId = "service_msnbn38";
+  const templateId = process.env.REACT_APP_TEMPLATEID; 
+  const serviceId = process.env.REACT_APP_SERVICEID;
   sendFeedback(serviceId,templateId, {
     lastname: data.target.lastname.value,
     firstname: data.target.firstname.value,
@@ -29,7 +31,7 @@ const handleSubmit = (data) => {
 
 const sendFeedback = (serviceId,templateId,variables) => {
 emailjs.send(
-  serviceId,templateId,variables, "H2vOtZv1UC6J3rxVt")
+  serviceId,templateId,variables, process.env.REACT_APP_CLE_API)
 .then((res) => {
   console.log('success')
 
@@ -118,6 +120,7 @@ const {
                 name="tel"
                 placeholder='Votre téléphone'
                 required="required"
+                pattern="[0-9]$"
                 />
             </label>
   </div>
