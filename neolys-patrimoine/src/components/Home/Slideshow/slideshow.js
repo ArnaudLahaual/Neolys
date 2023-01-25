@@ -3,6 +3,9 @@ import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import cyril from '../../../assets/images/cyril.png';
 import boris from '../../../assets/images/boris.png';
+import generalis from '../../../assets/logo/generali.png';
+import alpheys from '../../../assets/logo/alpheys.png';
+import primonial from '../../../assets/logo/primonial.jpg';
 
 const proprietes = {
     duration : 5000,
@@ -24,15 +27,17 @@ function SlideShow() {
         <Slide {...proprietes}>
             <div className='each-slide'>
                 <div className='images__partenaires'>
-                    <img src={cyril} alt='cyril'id='cyril' />
+                    <img src={boris} alt='generalis'id='boris' />
                 </div>
             </div>
             
             <div className='each-slide'>
                 <div className='images__partenaires' >
-                    <img src={boris} alt='boris'id='boris' />
+                    <img src={cyril} alt='alpheys'id='cyril' />
                 </div>
             </div>
+
+
         </Slide>
         
         </div>
