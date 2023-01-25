@@ -12,8 +12,8 @@ import helenis from '../../../assets/logo/helenis.png';
 import orias from '../../../assets/logo/orias.jpg';
 
 const proprietes = {
-    duration : 5000,
-    transitionDuration :700,
+    duration : false,
+    transitionDuration :5000,
     infinite: true,
     indicators: false,
     arrows : false,
