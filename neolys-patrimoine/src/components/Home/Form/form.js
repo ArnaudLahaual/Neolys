@@ -60,7 +60,7 @@ const {
   return (
     <div className="registration" id='contacts'>
 
-        <h1 className='registration__form__title '><MdContactMail />Formulaire de Contacts</h1>
+        <h1 className='registration__form__title '>Formulaire de Contacts</h1>
     
         <form className='registration__form' name='contact' onSubmit={handleSubmit}>
 

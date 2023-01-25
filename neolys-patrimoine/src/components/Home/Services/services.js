@@ -17,7 +17,8 @@ function Services() {
                 <p className='services__text'>Allez vous toujours payer plus d'impôts ? 
                 Quels sont les conséquences sur votre budget ?
                 Comment utiliser l'impôt au service du developement de votre patrimoine ?
-                Autant de questions auxquelles nous pouvons réfléchir ensemble au regard de votre situation globale.</p><hr></hr>
+                Autant de questions auxquelles nous pouvons réfléchir ensemble au regard de votre situation globale.</p><hr>
+                </hr>
           </div>
 
           <div className='services__div'>
