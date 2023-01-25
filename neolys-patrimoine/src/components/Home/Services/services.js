@@ -16,23 +16,27 @@ function Services() {
 
           <div className='services__div'>
 
-
-        
-<div className='principal'>
-
             <div className='services__image'>
                 <img
                 className="services__image__img"
                 src={bureau}
                 alt="bureau"
               />
+              <p className='text-over'>Optimisation fiscale</p>
+      
           </div>
 
-          <div className='services__entete1'>
-              <h1 className='services__titre1'>Optimisation fiscale</h1>
-      
-            </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
                 <p className='services__text'>
                   {/* Allez vous toujours payer plus d'impôts ? 
                 Quels sont les conséquences sur votre budget ?

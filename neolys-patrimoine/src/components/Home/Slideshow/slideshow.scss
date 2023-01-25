@@ -1,9 +1,9 @@
 .containerSlide {
 width: 50%;
 margin: auto;
+justify-content: space-between;
 
 &__div {
-
     width: 100%;
 }
 
@@ -33,5 +33,9 @@ margin: auto;
 #generalis{
     width: 50px;
     height: 50px;
+}
+
+.images-wrap{
+    width: 100%;
 }
 }
