@@ -9,6 +9,8 @@ function Footer() {
             <li>Politique de confidentialité</li>
             <li>Mentions légales</li>
         </ul>
+
+        <p>adresse du siege / réseaux sociaux </p>
     </div>
   );
 }

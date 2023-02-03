@@ -7,6 +7,7 @@ import money from '../../../assets/images/money.jpg';
 import bureau from '../../../assets/images/bureau.jpg';
 import bourse from '../../../assets/images/bourse.jpg';
 import immeuble from '../../../assets/images/immeuble.jpg';
+import 'animate.css';
 
 
 function Services() {
@@ -59,7 +60,7 @@ function Services() {
       
           </div>  */}
 
-          <div className='carré'>
+          <div className='carré animate__animated animate__fadeInDown'>
               <img
                     className="carré__img"
                     src={bureau}
@@ -68,39 +69,39 @@ function Services() {
 
             <div className='carré__zone'>
                 <h1 className='carré__title'>Conseils en investissements boursiers</h1>
-                  <p className='carré__text'>Profitez de notre expertise afin d'investir sur les marchés financiers</p>
+                  {/* <p className='carré__text'>Profitez de notre expertise afin d'investir sur les marchés financiers</p> */}
           </div>
 
           </div>
 
-          <div className='carré'>
+          <div className='carré animate__animated animate__fadeInDown'>
             <img
                   className="carré__img"
                   src={money}
                   alt="bureau"
                 />
                 <h1 className='carré__title'>Placement financiers</h1>
-                  <p className='carré__text'>Placez votre argent les frères</p>
+                  {/* <p className='carré__text'>Placez votre argent les frères</p> */}
           </div>
 
-          <div className='carré'>
+          <div className='carré animate__animated animate__fadeInDown'>
             <img
                   className="carré__img"
                   src={bourse}
                   alt="bureau"
                 />
                 <h1 className='carré__title'>Conseils en investissements boursiers</h1>
-                  <p className='carré__text'>Profitez de notre expertise afin d'investir sur les marchés financiers</p>
+                  {/* <p className='carré__text'>Profitez de notre expertise afin d'investir sur les marchés financiers</p> */}
           </div>
 
-          <div className='carré'>
+          <div className='carré animate__animated animate__fadeInDown'>
             <img
                   className="carré__img"
                   src={immeuble}
                   alt="bureau"
                 />
                 <h1 className='carré__title'>Placement immobilier</h1>
-                  <p className='carré__text'>Investissez dans la pierre</p>
+                  {/* <p className='carré__text'>Investissez dans la pierre</p> */}
           </div>
         </div>
     </div>
