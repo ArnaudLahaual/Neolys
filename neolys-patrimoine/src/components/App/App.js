@@ -11,6 +11,7 @@ import Form from '../Home/Form/form';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
+import Footer from '../Footer/footer';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
         <Team />
         <SlideShow />
         <Form />
+        <Footer />
     </div>
   );
 }

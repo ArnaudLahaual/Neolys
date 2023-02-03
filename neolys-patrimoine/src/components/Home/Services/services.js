@@ -13,9 +13,12 @@ function Services() {
     return (
       <div className="services" id='services'>
           <h1 className='services__title'>Nos services</h1>
+          
+
+
 
           <div className='services__div'>
-
+{/* 
             <div className='services__image'>
                 <img
                 className="services__image__img"
@@ -54,7 +57,51 @@ function Services() {
               />
               <p className='text-over'>Conseils en investissements boursiers</p>
       
-          </div>        
+          </div>  */}
+
+          <div className='carré'>
+              <img
+                    className="carré__img"
+                    src={bureau}
+                    alt="bureau"
+                  />
+
+            <div className='carré__zone'>
+                <h1 className='carré__title'>Conseils en investissements boursiers</h1>
+                  <p className='carré__text'>Profitez de notre expertise afin d'investir sur les marchés financiers</p>
+          </div>
+
+          </div>
+
+          <div className='carré'>
+            <img
+                  className="carré__img"
+                  src={money}
+                  alt="bureau"
+                />
+                <h1 className='carré__title'>Placement financiers</h1>
+                  <p className='carré__text'>Placez votre argent les frères</p>
+          </div>
+
+          <div className='carré'>
+            <img
+                  className="carré__img"
+                  src={bourse}
+                  alt="bureau"
+                />
+                <h1 className='carré__title'>Conseils en investissements boursiers</h1>
+                  <p className='carré__text'>Profitez de notre expertise afin d'investir sur les marchés financiers</p>
+          </div>
+
+          <div className='carré'>
+            <img
+                  className="carré__img"
+                  src={immeuble}
+                  alt="bureau"
+                />
+                <h1 className='carré__title'>Placement immobilier</h1>
+                  <p className='carré__text'>Investissez dans la pierre</p>
+          </div>
         </div>
     </div>
     );
