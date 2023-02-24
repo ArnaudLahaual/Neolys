@@ -4,6 +4,7 @@ import place from '../../assets/logo/place.jpg';
 import bureau from '../../assets/images/fond_bureau.jpg';
 import bureau2 from '../../assets/images/fond_bureau2.jpg';
 import chaise from '../../assets/images/chaise.jpg';
+import bureau3 from '../../assets/images/bureau3.jpg';
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
           <p className='presentation__text'>Votre cabinet <br></br> Neolys Patrimoine</p>
         <img
               className="presentation__image"
-              src={chaise}
+              src={bureau3}
               alt="image"
             />
         </div>
