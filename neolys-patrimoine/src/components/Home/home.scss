@@ -19,4 +19,43 @@ overflow: hidden;
         padding: 10px;
         
     }
+
+}
+.presentation {
+    background-color: white;
+    width: 100%;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(201, 178, 99);
+    object-fit: cover;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+
+
+    &__text {
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        background-color: rgb(0,0,0,0.5);
+        padding: 10px;
+        color: rgb(201, 178, 99);
+        border-radius: 40px 999em 999em 40px;
+        left: 11px;
+        filter: opacity(80%);
+        
+    }
+
+    &__image {
+   max-width: 100%;
+   max-height: 100%;
+        object-fit: cover;
+        margin-top: 234px;
+        
+        
+    }
 }

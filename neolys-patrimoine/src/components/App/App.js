@@ -7,7 +7,6 @@ import Services from '../Home/Services/services';
 import SlideShow from '../Home/Slideshow/slideshow';
 import Agrements from '../Home/Agrements/agrements';
 import Form from '../Home/Form/form';
-import CardExampleImageCard from '../Home/CardExampleImageCard/CardExampleImageCard';
 import 'semantic-ui-css/semantic.min.css';
 
 import { useLocation } from 'react-router-dom';
@@ -35,7 +34,6 @@ function App() {
 
         <Header />
         <Home />
-        <CardExampleImageCard />
         <Services />
         <Atouts />
         <Team />
