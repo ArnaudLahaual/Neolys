@@ -58,9 +58,7 @@
     color: #C9B263;
     width: 100%;
     margin: 0px;
-
-
-
+        
 
         &__paragraphe {
             display: flex;
@@ -82,6 +80,7 @@
             align-items: center;
             text-transform: uppercase;
             color: white;
+            margin-top: 15px;
         }
 
         &__div {
@@ -93,7 +92,7 @@
         }
 
         &__logo {
-            margin-bottom: 30px;
+            margin-bottom: 10px;
             color: #C9B263;
             border: 5px solid black;
         }

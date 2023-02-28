@@ -2,12 +2,18 @@ import './atouts.scss';
 import {GiCoffeeCup, GiSandsOfTime, GiHammerDrop} from 'react-icons/gi';
 import {FaUserTie} from 'react-icons/fa';
 import {VscChecklist} from 'react-icons/vsc';
+import fondbureau from '../../../assets/images/fond_bureau.jpg';
 
 function Atouts() {
   return (
     <div className="team" id='team'>
 
-          <p className="team__title">Pourquoi faire appel à un CGP ?</p>
+        <img
+              className="presentation__image"
+              src={fondbureau}
+              alt="image"
+            />
+          {/* <p className="team__title">Pourquoi faire appel à un CGP ?</p> */}
 
 <div className='avantages__div'>
             <div className='avantages'>
