@@ -7,9 +7,12 @@ import Services from '../Home/Services/services';
 import SlideShow from '../Home/Slideshow/slideshow';
 import Agrements from '../Home/Agrements/agrements';
 import Form from '../Home/Form/form';
+import 'semantic-ui-css/semantic.min.css';
 
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import Atouts from '../Home/Atouts/atouts';
+import Footer from '../Footer/footer';
 
 function App() {
 
@@ -30,12 +33,13 @@ function App() {
     <div className="app">
 
         <Header />
-     
         <Home />
-        <Team />
         <Services />
+        <Atouts />
+        <Team />
         <SlideShow />
         <Form />
+        <Footer />
     </div>
   );
 }

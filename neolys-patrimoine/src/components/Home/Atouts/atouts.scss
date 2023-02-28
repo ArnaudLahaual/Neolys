@@ -1,0 +1,100 @@
+.team {
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    
+    &__picture {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        margin: -3px;
+
+    }
+
+    &__admins {
+        object-fit: cover;
+        overflow: hidden;
+        margin-top: -20px;
+        width: 100%;
+
+        @media(min-width: 768px){
+            display: flex;
+            justify-content: center;
+
+            }
+    }
+
+    &__title {
+        font-size: 20px;
+        padding: 20px;
+        color: black;
+        font-family: "Roboto";
+        font-weight: 600;
+        line-height: normal;
+        width: 100%;
+        text-align: center;
+        
+        @media(min-width: 768px){
+            font-size: 20px;
+            padding: 20px;
+            color: black;
+            font-family: "Roboto";
+            font-weight: 600;
+            line-height: normal;
+            width: 751px;
+            text-align: center;
+            margin-left: -7px;
+            }
+    }
+
+    .avantages {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    background-color: black;
+    color: #C9B263;
+    width: 100%;
+    margin: 0px;
+        
+
+        &__paragraphe {
+            display: flex;
+            align-items: center;
+        }
+
+        &__text {
+            text-align: center;
+            padding: 15px;
+            text-transform: uppercase;
+            color: white;
+            font-size: 20px;
+        }
+
+        &__title {
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+            color: white;
+            margin-top: 15px;
+        }
+
+        &__div {
+            width: 100%;
+            @media(min-width: 768px){
+                display: flex;
+                text-align: center;
+             }
+        }
+
+        &__logo {
+            margin-bottom: 10px;
+            color: #C9B263;
+            border: 5px solid black;
+        }
+    }
+}
