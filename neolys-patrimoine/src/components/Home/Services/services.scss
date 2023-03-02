@@ -1,6 +1,9 @@
 .services{
     display: flex;
-    flex-direction: column;
+    font-family: "Merriweather Sans";
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     font-family: 'Merriweather Sans';
 
     &__texte {
