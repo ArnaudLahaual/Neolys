@@ -13,8 +13,6 @@ function Services() {
     return (
       <div className="services" id='services'>
 
-          <h1 className='services__title'>Nos services</h1>
-
           <div className='services__card'>
             
               <div className='services__card__entete'>
