@@ -1,8 +1,6 @@
 import './slideshow.scss';
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
-import cyril from '../../../assets/images/cyril.png';
-import boris from '../../../assets/images/boris.png';
 import generali from '../../../assets/logo/generali.png';
 import alpheys from '../../../assets/logo/alpheys.png';
 import primonial from '../../../assets/logo/primonial.jpg';
