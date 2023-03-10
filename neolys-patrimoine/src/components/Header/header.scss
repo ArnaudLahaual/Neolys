@@ -56,10 +56,13 @@ z-index: 1;
             padding: 0px;
             top: 70px;
             left: 0px;
-            width: 100%;
+            width: 50%;
             height: 100vh;
-            background-color: black;
+            background-color: rgba(0, 0, 0, 0.9);
             z-index: 1;
+            margin-top: 39px;
+            transition: 2s;
+
             }
         
         &__links  {
@@ -90,6 +93,7 @@ z-index: 1;
             width: 90%;
         }
 
+        &__links {
             &__mobile {
                 appearance: none;
             background-color: transparent;
@@ -115,14 +119,16 @@ z-index: 1;
             touch-action: manipulation;
             will-change: transform;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
             text-decoration: underline;
             text-underline-offset: 8px;
             text-transform: uppercase;
  
             }
-
+        }
+           
 
             }
         }

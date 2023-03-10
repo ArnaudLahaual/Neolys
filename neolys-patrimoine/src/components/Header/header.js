@@ -41,7 +41,7 @@ function handleClick() {
 
           {/* menu */}
           <ul className='navbar__menu'>
-              <li><a href='#services'  className='navbar__links'>Présentation</a></li>
+              <li><a href='/'  className='navbar__links'>Présentation</a></li>
               <li><a href='#services'  className='navbar__links'>Nos services</a></li>
               <li><a href='#agrements'  className='navbar__links'>Nos agréments</a></li>
               <li><a href='#contacts'  className='navbar__links'>Contacts</a></li>
@@ -52,10 +52,10 @@ function handleClick() {
           { isBurgerOpen &&
           
           <ul className='navbar__mobile'>
-              <li><a href='#services'  className='navbar__links__mobile'>Présentation</a></li>
-              <li className='navbar__links__mobile'>Nos services</li>
-              <li className='navbar__links__mobile'>Nos agréments</li>
-              <li className='navbar__links__mobile'>Contacts</li>
+              <li><a href='/'  className='navbar__links__mobile'>Présentation</a></li>
+              <li><a href='#services'  className='navbar__links__mobile'>Nos services</a></li>
+              <li><a href='#agréments'  className='navbar__links__mobile'>Nos agréments</a></li>
+              <li><a href='#contacts'  className='navbar__links__mobile'>Contacts</a></li>
           </ul> }
           
     </div>

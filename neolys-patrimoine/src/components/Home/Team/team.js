@@ -1,8 +1,7 @@
 import './team.scss';
 import boris from '../../../assets/images/boris.png';
 import cyril from '../../../assets/images/cyril.png';
-import borispres from '../../../assets/images/boris__pres.png';
-import cyrilpres from '../../../assets/images/cyril__pres.png';
+
 
 
 function Team() {
@@ -16,7 +15,7 @@ function Team() {
           <div className='team__boris'>
             <img
                 className="team__picture"
-                src={borispres}
+                src={boris}
                 alt="team__boris"
               />
           </div>
@@ -24,7 +23,7 @@ function Team() {
           <div className='team__cyril'>
             <img
                 className="team__picture"
-                src={cyrilpres}
+                src={cyril}
                 alt="team__cyril"
               />
           </div>
