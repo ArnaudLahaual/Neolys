@@ -25,9 +25,9 @@ function Footer() {
           <p className='footer__contact__num'> <BsFillTelephoneFill /> 01 01 01 01 01</p>
 
           <ul className='footer__contact__social'>
-            <li className='footer__contact__social__item'><a href='https://www.instagram.com/neolyspatrimoine/'><AiFillInstagram size={20} /></a></li>
-            <li className='footer__contact__social__item'><a href='https://www.facebook.com/profile.php?id=100088345197764'><BsFacebook  size={20}/></a></li>
-            <li className='footer__contact__social__item'><a href='https://www.linkedin.com/company/neolys-patrimoine/about/'><BsLinkedin  size={20}/></a></li>
+            <li className='footer__contact__social__item'><a href='https://www.instagram.com/neolyspatrimoine/' target="_blank"><AiFillInstagram size={20} /></a></li>
+            <li className='footer__contact__social__item'><a href='https://www.facebook.com/profile.php?id=100088345197764' target="_blank"><BsFacebook  size={20}/></a></li>
+            <li className='footer__contact__social__item'><a href='https://www.linkedin.com/company/neolys-patrimoine/about/' target="_blank"><BsLinkedin  size={20}/></a></li>
           </ul>
         </div>
 
