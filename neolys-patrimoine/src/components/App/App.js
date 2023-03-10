@@ -5,10 +5,8 @@ import Home from '../Home/home';
 import Team from '../Home/Team/team';
 import Services from '../Home/Services/services';
 import SlideShow from '../Home/Slideshow/slideshow';
-import Agrements from '../Home/Agrements/agrements';
 import Form from '../Home/Form/form';
 import 'semantic-ui-css/semantic.min.css';
-
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
