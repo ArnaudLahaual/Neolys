@@ -1,6 +1,6 @@
 import './team.scss';
-import borisbg from '../../../assets/images/boristetedendive.png';
-import cyrilbg from '../../../assets/images/cyriltetedendive.png';
+import borisbg from '../../../assets/images/boris.png';
+import cyrilbg from '../../../assets/images/cyril.png';
 
 
 

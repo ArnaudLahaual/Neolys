@@ -32,6 +32,7 @@
         display: flex;
         justify-content: center;
         padding: 30px;
+        margin-bottom: -15px;
  
         &__text {
             display: flex;
@@ -53,7 +54,7 @@
     }
 
     #img {
-        width: 145px;
-        border-radius: 100%;
+        width: 175px;
+
     }
 }

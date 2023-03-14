@@ -1,52 +1,30 @@
-.containerSlide {
-width: 50%;
-margin: auto;
-justify-content: space-between;
+.slideshow {
+    margin-top: 30px;
+    margin-bottom: 30px;
 
-&__div {
-    width: 100%;
-}
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
 
-&__title {
-
-    text-align: center;
-    padding: 10px;
-}
-
-
-.each-slide {
-    width: 238px;
-    height: 195px;
-    
-    &__img {
-        background-color: lightblue;
-        width: 50px;
-        height: 50px;
     }
 
-}
-.indicators {
+  &__logos{
     display: flex;
-}
-.images-wrap {
-    display: flex;
-}
 
-#generalis{
-    width: 50px;
-    height: 50px;
-}
+    &__logo{
+        width: 200px;
+        height: 200px;
+    }
+  }
 
-.images-wrap{
-    width: 100%;
-}
+  #img {
 
-.images__partenaires{
-    width: 238px;
-    height: 195px;
-}
-
-#helenis {
-    height: 180px;
-}
+    border: #F2F2F2 3px solid;
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    margin: 5px;
+  }
 }
