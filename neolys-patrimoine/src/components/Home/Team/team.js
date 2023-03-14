@@ -22,7 +22,6 @@ function Team() {
 
           <div className='team__picture__text'>
               <h1 className='team__picture__name'>BORIS COCHEFERT</h1>
-              <p className='team__picture__statut'>PRESIDENT</p>
           </div>
 
           </div>
@@ -37,7 +36,6 @@ function Team() {
 
             <div className='team__picture__text'>
               <h1 className='team__picture__name'>CYRIL REYNAUD</h1>
-              <p className='team__picture__statut'>DIRECTEUR GENERAL</p>
             </div>
 
           </div>
