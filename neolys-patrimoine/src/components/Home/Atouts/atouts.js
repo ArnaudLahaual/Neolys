@@ -6,7 +6,7 @@ import fondbureau from '../../../assets/images/fond_bureau.jpg';
 
 function Atouts() {
   return (
-    <div className="team" id='team'>
+    <div className="avantages" id='avantages'>
 
         <img
               className="presentation__image"

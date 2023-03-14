@@ -5,96 +5,48 @@
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
-    
-    &__picture {
-        width: 100%;
-        height: 160px;
-        object-fit: cover;
-        margin: -3px;
-
-    }
-
-    &__admins {
-        object-fit: cover;
-        overflow: hidden;
-        margin-top: -20px;
-        width: 100%;
-
-        @media(min-width: 768px){
-            display: flex;
-            justify-content: center;
-
-            }
-    }
+    background-color: #f2f2f2;
 
     &__title {
-        font-size: 20px;
-        padding: 20px;
-        color: black;
-        font-family: "Roboto";
-        font-weight: 600;
-        line-height: normal;
-        width: 100%;
         text-align: center;
-        
-        @media(min-width: 768px){
-            font-size: 20px;
-            padding: 20px;
-            color: black;
-            font-family: "Roboto";
-            font-weight: 600;
-            line-height: normal;
-            width: 751px;
-            text-align: center;
-            margin-left: -7px;
-            }
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight:800;
+        padding-top: 10%;
+    }
+    
+    &__card {
+        background-color: #202020;
+        margin: 30px;
+        border-radius: 20px;
+        padding: 20px;
     }
 
-    .avantages {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-    background-color: black;
-    color: #C9B263;
-    width: 100%;
-    margin: 0px;
-
-
-
-
-        &__paragraphe {
-            display: flex;
-            align-items: center;
-        }
-
+    &__picture {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+ 
         &__text {
-            text-align: center;
-            padding: 15px;
-            text-transform: uppercase;
-            color: white;
-            font-size: 20px;
-        }
-
-        &__title {
-            font-size: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-transform: uppercase;
-            color: white;
+            justify-content: center;
         }
 
-        &__div {
-            width: 100%;
-            @media(min-width: 768px){
-                display: flex;
-                text-align: center;
-             }
+        &__name {
+            color: rgb(201, 178, 99);
+            font-size: 20px;
         }
 
-        &__logo {
-            margin-bottom: 30px;
-            color: #C9B263;
+        &__statut {
+            color: #FFFFFF
+
         }
+    }
+
+    #img {
+        width: 145px;
+        border-radius: 100%;
     }
 }
