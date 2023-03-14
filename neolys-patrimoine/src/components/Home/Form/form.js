@@ -67,7 +67,7 @@ const {
       <div className='fields'>
       <div className='name'>
           {/* Nom */}
-            <label htmlFor='lastname' className='registration__form__label'>
+            <label htmlFor='lastname' className='registration__form__label' id='name'>
                 Nom* 
                 <input
                 onChange={handleChange}

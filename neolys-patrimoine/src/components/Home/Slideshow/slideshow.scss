@@ -12,6 +12,7 @@
 
   &__logos{
     display: flex;
+    justify-content: space-between;
 
     &__logo{
         width: 200px;
