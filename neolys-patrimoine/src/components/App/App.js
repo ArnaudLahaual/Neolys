@@ -11,6 +11,7 @@ import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
 import Footer from '../Footer/footer';
+import Carousel from '../Carousel/carousel';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
         <SlideShow />
         <Form />
         <Footer />
+        <Carousel />
     </div>
   );
 }
