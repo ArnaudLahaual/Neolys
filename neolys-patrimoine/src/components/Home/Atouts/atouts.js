@@ -6,16 +6,16 @@ import fondbureau from '../../../assets/images/fond_bureau.jpg';
 
 function Atouts() {
   return (
-    <div className="avantages" id='avantages'>
+    <div className="atouts" id='avantages'>
 
-        <img
+        {/* <img
               className="presentation__image"
               src={fondbureau}
               alt="image"
-            />
+            /> */}
           {/* <p className="team__title">Pourquoi faire appel à un CGP ?</p> */}
 
-<div className='avantages__div'>
+        <div className='avantages__div'>
             <div className='avantages'>
                 <h1 className='avantages__title'>
                 <div className='avantages__logo'>
