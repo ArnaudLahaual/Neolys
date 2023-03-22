@@ -6,6 +6,7 @@
     align-items: center;
     font-family: 'Merriweather Sans';
 
+
     &__texte {
         padding: 15px;
         background-color: black;
@@ -19,6 +20,19 @@
         }
     }
 
+    &__grille {
+        
+        display: none;
+        font-family: "Merriweather Sans";
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: 'Merriweather Sans';
+
+        @media(min-width: 768px){
+            display: flex;
+        }
+    }
     &__card {
 
         width: 300px;
@@ -58,3 +72,14 @@
         }
     }
 }
+
+.swiper {
+    
+    @media(min-width: 768px){
+        display: none;
+    }
+
+}
+
+
+
