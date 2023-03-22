@@ -9,6 +9,10 @@
 
     &__admins {
         padding-bottom: 30px;
+
+        @media(min-width: 768px){
+           display: flex;
+        }
     }
 
     &__title {
