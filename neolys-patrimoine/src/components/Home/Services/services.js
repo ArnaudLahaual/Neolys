@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 import './services.scss';
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import {BiBuildings} from 'react-icons/bi';
 import {BsCalculator} from 'react-icons/bs';
 import {AiOutlineStock} from 'react-icons/ai';
@@ -116,7 +116,8 @@ function Services() {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+      navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

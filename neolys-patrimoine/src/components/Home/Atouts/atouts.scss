@@ -54,16 +54,16 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-    background-color: black;
+    background-color: #202020;;
     color: #C9B263;
     width: 100%;
     margin: 0px;
-    height: 190px;
+    height: 200px;
 
     @media(min-width: 768px){
         display: flex;
         align-items: center;
-        background-color: black;
+        background-color:#202020;
         color: #C9B263;
         }
         
@@ -106,7 +106,7 @@
         &__logo {
             margin-bottom: 10px;
             color: #C9B263;
-            border: 5px solid black;
+            border: 5px solid #202020;
         }
     }
 }
