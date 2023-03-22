@@ -8,16 +8,15 @@ function Team() {
   return (
     <div className="team" id='team'>
 
-        <div className='team__admins'>
-
         <p className="team__title">Vos conseillers</p> 
+        <div className='team__admins'>
 
           <div className='team__card'>
             <div className="team__picture">
-            <img id='img'
-                src={borisbg}
-                alt="boris"
-              />
+              <img id='img'
+                  src={borisbg}
+                  alt="boris"
+                />
            </div>
 
           <div className='team__picture__text'>
@@ -28,10 +27,10 @@ function Team() {
 
           <div className='team__card'>
             <div className="team__picture">
-              <img id='img'
-                  src={cyrilbg}
-                  alt="cyril"
-                />
+                <img id='img'
+                    src={cyrilbg}
+                    alt="cyril"
+                  />
             </div>
 
             <div className='team__picture__text'>
