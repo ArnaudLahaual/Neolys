@@ -50,6 +50,11 @@
         height: 100px;
         width: 350px;
         border-radius: 5px;
+
+        @media(min-width:1024px){
+          height: 110px;
+          width: 380px;
+             }
     }
     }
     button {
@@ -111,20 +116,32 @@
   .name {
 
     @media(min-width: 768px){
-     
+     display: flex;
+     align-items: center;
+    flex-direction: column;
         }
   }
 
   .infos {
     @media(min-width: 768px){
-
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
          }
   }
 
   .fields {
     @media(min-width: 768px){
       display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
          }
+
+         @media(min-width:1024px){
+         margin-right: 20px;
+             }
   }
       
   #name {
@@ -139,6 +156,13 @@
     text-align: left;
     margin-left: 5px;
   }
+}
+
+.formgroup {
+  @media(min-width:1024px){
+    display: flex;
+   margin: 20px;
+       }
 }
 
 
