@@ -4,7 +4,7 @@ import logo from '../../assets/logo/logo__black.png';
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id='home'>
         <div className='presentation'>
 
           <div className='logo'>
