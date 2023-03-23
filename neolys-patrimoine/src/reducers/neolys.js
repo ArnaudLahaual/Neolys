@@ -2,6 +2,7 @@ import { TOGGLE_BURGER, CLOSE_BURGER  } from "../actions/neolys";
 
 export const initialState = {
     isBurgerOpen: false,
+    loading: true,
   };
 
   function reducer(state = initialState, action = {}) {
