@@ -1,19 +1,21 @@
-body {
+.root {
+        padding: 10rem 0;
+}
 
+body {
         width: 100%;
         font-family: "Roboto";
         font-weight: bold;
         scroll-behavior: smooth;
-        margin-top: 15vh;
 }
 
 .app {
         width: 100%;
         overflow-x: hidden;
+
 }
 .app-header {
 display: flex;
 width: 100%;
-// background-color: #ccb15d;
-// background-color: #eee093;
+
 }

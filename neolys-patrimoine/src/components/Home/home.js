@@ -4,19 +4,27 @@ import logo from '../../assets/logo/logo__black.png';
 
 function Home() {
   return (
-    <div className="home">
-
+    <div className="home" id='home'>
         <div className='presentation'>
 
-          <p className='presentation__text'>Votre cabinet <br></br> Neolys Patrimoine</p>
-        <img
-              className="presentation__image"
-              src={bureau3}
-              alt="image"
-            />
-        </div>
+          <div className='logo'>
+            <img
+                  className="presentation__image"
+                  src={logo}
+                  alt="image"
+                />
+          </div>
 
-        
+          <div className='presentation__texte'>
+            <p className='presentation__text'> Cabinet<br></br>de conseils en gestion d'actifs et de patrimoine</p>
+          </div>
+
+{/*           
+        <div className='presentation__second'>
+          <p className='presentation__second__text'>"Investir est la solution qu'il vous faut"</p>
+        </div> */}
+
+      </div>
     </div>
   );
 }

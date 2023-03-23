@@ -8,17 +8,6 @@ function Footer() {
 
   return (
     <div className="footer">
-        {/* <ul className='footer__list'>
-            <li className='footer__list__link' >Contact</li>
-            <li className='footer__list__link'>Politique de confidentialité</li>
-            <li className='footer__list__link'>Mentions légales</li>
-        </ul> */}
-
-          {/* <img
-              className="footer__image"
-              src={logo}
-              alt="image"
-            /> */}
 
         <div className='footer__contact'>
           <h1 className='footer__contact__title'>Contact</h1>

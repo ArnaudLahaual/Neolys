@@ -9,7 +9,7 @@ import gouv from '../../../assets/logo/gouv.png';
 function SlideShow() {
   return (
 
-    <div className='slideshow'>
+    <div className='slideshow' id='agrements'>
         <h1 className='slideshow__title'>Nos Agréments</h1>
 
         <div className='slideshow__logos'>

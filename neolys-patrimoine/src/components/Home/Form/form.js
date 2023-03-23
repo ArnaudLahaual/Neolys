@@ -64,6 +64,8 @@ const {
     
         <form className='registration__form' name='contact' onSubmit={handleSubmit}>
 
+<div className='formgroup'>
+
       <div className='fields'>
       <div className='name'>
           {/* Nom */}
@@ -124,7 +126,9 @@ const {
                 />
             </label>
   </div>
+
   </div>
+      <div className='textezone'>
             <label htmlFor="message" className="registration__form__label">Votre message</label>
               <div>
                 <textarea
@@ -135,6 +139,8 @@ const {
                   name="message"
                 />
               </div>
+      </div>
+  </div>
 
               <button>
                 <div className='svg-wrapper-1'>

@@ -4,7 +4,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 border-bottom: 1px solid #C9B263;
-height: 15vh;
+height: 11vh;
 top: 0;
 background-color: white;
 position: fixed;
@@ -49,19 +49,22 @@ z-index: 1;
 
             position: absolute;
             display: flex;
-            flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
             font-family: "Roboto";
             padding: 0px;
-            top: 70px;
+            top: 79px;
             left: 0px;
             width: 50%;
             height: 100vh;
-            background-color: rgba(0, 0, 0, 0.9);
+            background-color: black;
             z-index: 1;
-            margin-top: 39px;
-            transition: 2s;
+            flex-direction: column;
+
+            &__social{
+                display: flex;
+                list-style-type: none;
+            }
 
             }
         
@@ -72,6 +75,7 @@ z-index: 1;
             letter-spacing: 0.5px;
             padding: 0 10px;
             text-transform: uppercase;
+
             }
 
         &__links:hover{

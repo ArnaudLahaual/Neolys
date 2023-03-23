@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 import './services.scss';
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import {BiBuildings} from 'react-icons/bi';
 import {BsCalculator} from 'react-icons/bs';
 import {AiOutlineStock} from 'react-icons/ai';
@@ -16,13 +16,14 @@ import {MdFamilyRestroom} from 'react-icons/md';
 import {GiFamilyTree} from 'react-icons/gi';
 
 import 'animate.css';
+import services from '../../../data/services';
 
-
-function Services() {
+console.log(services);
+function Services( {title, texte, icon}) {
     return (
       <div className="services" id='services'>
         <div className="services__grille">
-
+          
           <div className='services__card'>
             
               <div className='services__card__entete'>
@@ -116,7 +117,8 @@ function Services() {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+      navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

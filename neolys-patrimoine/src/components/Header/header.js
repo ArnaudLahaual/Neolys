@@ -8,8 +8,9 @@ import {useSelector,useDispatch} from 'react-redux';
 import { toggleBurger,closeBurger } from '../../actions/neolys';
 import {useLocation} from 'react-router-dom';
 import { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+
+import {AiFillInstagram} from 'react-icons/ai';
+import {BsFacebook,BsLinkedin} from 'react-icons/bs';
 
 // == Composant
 function Header() {
@@ -41,8 +42,9 @@ function handleClick() {
 
           {/* menu */}
           <ul className='navbar__menu'>
-              <li><a href='/'  className='navbar__links'>Présentation</a></li>
+              <li><a href='#app'  className='navbar__links'>Home</a></li>
               <li><a href='#services'  className='navbar__links'>Nos services</a></li>
+              <li><a href='#team'  className='navbar__links'>L'équipe</a></li>
               <li><a href='#agrements'  className='navbar__links'>Nos agréments</a></li>
               <li><a href='#contacts'  className='navbar__links'>Contacts</a></li>
           </ul>
@@ -52,12 +54,20 @@ function handleClick() {
           { isBurgerOpen &&
           
           <ul className='navbar__mobile'>
-              <li><a href='/'  className='navbar__links__mobile'>Présentation</a></li>
-              <li><a href='#services'  className='navbar__links__mobile'>Nos services</a></li>
-              <li><a href='#agréments'  className='navbar__links__mobile'>Nos agréments</a></li>
-              <li><a href='#contacts'  className='navbar__links__mobile'>Contacts</a></li>
-          </ul> }
-          
+              <li onClick={handleClick}><a href='#app' className='navbar__links__mobile'>Home</a></li>
+              <li onClick={handleClick}><a href='#services'  className='navbar__links__mobile'>Nos services</a></li>
+              <li onClick={handleClick}><a href='#team' className='navbar__links__mobile'>Team</a></li>
+              <li onClick={handleClick}><a href='#agrements'  className='navbar__links__mobile'>Nos agréments</a></li>
+              <li onClick={handleClick}><a href='#contacts'  className='navbar__links__mobile'>Contacts</a></li>
+
+              <div className='navbar__mobile__social'>
+                <li onClick={handleClick}><a href='https://www.linkedin.com/company/neolys-patrimoine/about/' target="_blank"  className='navbar__links__mobile'><BsLinkedin size={20} /></a></li>
+                <li onClick={handleClick}><a href='https://www.facebook.com/profile.php?id=100088345197764' target="_blank"  className='navbar__links__mobile'><BsFacebook size={20} /></a></li>
+                <li onClick={handleClick}><a href='https://www.instagram.com/neolyspatrimoine/' target="_blank"  className='navbar__links__mobile'><AiFillInstagram size={20} /></a></li>
+              </div>
+          </ul>
+           }
+
     </div>
     
         {/* burger */}
