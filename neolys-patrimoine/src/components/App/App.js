@@ -11,11 +11,15 @@ import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
 import Footer from '../Footer/footer';
+import Loading from './Loading/loading';
+import { useSelector } from 'react-redux';
 
 
 function App() {
 
   const location = useLocation();
+  const loading = useSelector((state) => state.neolys.loading);
+  console.log(loading);
 
   useEffect(
     () => {
@@ -26,9 +30,10 @@ function App() {
     // Du coup la callback au dessus se déclenchera à chaque modification de la valeur de location
     [location],
   );
-    
+
   
-  return (
+  return  (
+
     <div className="app" id='app'>
 
         <Header />
