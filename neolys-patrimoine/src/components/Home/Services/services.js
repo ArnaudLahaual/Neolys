@@ -16,10 +16,8 @@ import {MdFamilyRestroom} from 'react-icons/md';
 import {GiFamilyTree} from 'react-icons/gi';
 
 import 'animate.css';
-import services from '../../../data/services';
 
-console.log(services);
-function Services( {title, texte, icon}) {
+function Services() {
     return (
       <div className="services" id='services'>
         <div className="services__grille">
