@@ -8,7 +8,6 @@ function Team() {
   return (
     <div className="team" id='team'>
 
-        <p className="team__title">Vos conseillers</p> 
         <div className='team__admins'>
 
           <div className='team__card'>

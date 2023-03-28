@@ -34,8 +34,8 @@ function App() {
         <Header />
         <Home />
         <Services />
-        <Atouts />
         <Team />
+        <Atouts />
         <SlideShow />
         <Form />
         <Footer />

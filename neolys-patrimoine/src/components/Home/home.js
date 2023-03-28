@@ -16,13 +16,8 @@ function Home() {
           </div>
 
           <div className='presentation__texte'>
-            <p className='presentation__text'> Cabinet<br></br>de conseils en gestion d'actifs et de patrimoine</p>
+            <p className='presentation__text'> Cabinet de conseil <br></br>en investissement et gestion de patrimoine</p>
           </div>
-
-{/*           
-        <div className='presentation__second'>
-          <p className='presentation__second__text'>"Investir est la solution qu'il vous faut"</p>
-        </div> */}
 
       </div>
     </div>
