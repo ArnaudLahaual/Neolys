@@ -15,6 +15,13 @@ z-index: 1;
         width: 100px ;
         padding: 1em;
         height: 90px;
+
+        @media(min-width: 768px){
+            width: 100px ;
+        padding: 0.5em;
+        height: 88px;
+
+            }
     }
 
     display: flex;
@@ -53,7 +60,7 @@ z-index: 1;
             align-items: flex-start;
             font-family: "Roboto";
             padding: 0px;
-            top: 79px;
+            top: 55px;
             left: 0px;
             width: 50%;
             height: 100vh;

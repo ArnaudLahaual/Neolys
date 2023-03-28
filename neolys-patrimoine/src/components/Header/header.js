@@ -42,11 +42,10 @@ function handleClick() {
 
           {/* menu */}
           <ul className='navbar__menu'>
-              <li><a href='#app'  className='navbar__links'>Home</a></li>
-              <li><a href='#services'  className='navbar__links'>Nos services</a></li>
-              <li><a href='#team'  className='navbar__links'>L'équipe</a></li>
-              <li><a href='#agrements'  className='navbar__links'>Nos agréments</a></li>
-              <li><a href='#contacts'  className='navbar__links'>Contacts</a></li>
+              <li><a href='#services'  className='navbar__links'>Présentation</a></li>
+              <li><a href='#services'  className='navbar__links'>services</a></li>
+              <li><a href='#agrements'  className='navbar__links'>agréments</a></li>
+              <li><a href='#contacts'  className='navbar__links'>Contact</a></li>
           </ul>
 
           {/* Mobile */}

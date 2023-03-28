@@ -38,9 +38,9 @@ function App() {
 
         <Header />
         <Home />
+        <Team />
         <Services />
         <Atouts />
-        <Team />
         <SlideShow />
         <Form />
         <Footer />
