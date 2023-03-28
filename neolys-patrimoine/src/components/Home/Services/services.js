@@ -26,12 +26,12 @@ function Services() {
             
               <div className='services__card__entete'>
 
-                <BiBuildings id='icon'/>
+                {/* <BiBuildings id='icon'/> */}
                 <h2 className='services__card__entete__title'>Investissements immobiliers</h2>
               </div>
 
               <div className='services__texte'>
-                <p className='services__texte__p'>Vous souhaitez investir dans l'immobilier ? Contactez nous</p>
+                <p className='services__texte__p'>PINEL, LMNP, MALRAUX, DEFICIT FONCIER, SCPI</p>
               </div>
 
           </div>
@@ -40,12 +40,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <BsCalculator id='icon'/>
-              <h2 className='services__card__entete__title'>Réduction d'impôts</h2>
+              {/* <BsCalculator id='icon'/> */}
+              <h2 className='services__card__entete__title'>Réduction<br></br> d'impôts</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>DISPOSITIF IMMOBILIER, GIRARDIN INDUSTRIEL, SCPI FISCAL</p>
             </div>
 
           </div>
@@ -54,12 +54,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <GiReceiveMoney id='icon'/>
+              {/* <GiReceiveMoney id='icon'/> */}
               <h2 className='services__card__entete__title'>Investissements Financiers</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>CTO PEA, OPCI, SICAV, CRYPTO MONNAIE</p>
             </div>
 
           </div>
@@ -68,12 +68,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <AiOutlineStock id='icon'/>
-              <h2 className='services__card__entete__title'>Analyse bourisère</h2>
+              {/* <AiOutlineStock id='icon'/> */}
+              <h2 className='services__card__entete__title'>Analyse<br></br> boursière</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>BLABLABLABAL</p>
             </div>
 
           </div>
@@ -82,12 +82,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <MdFamilyRestroom id='icon'/>
+              {/* <MdFamilyRestroom id='icon'/> */}
               <h2 className='services__card__entete__title'>Préparation retraite</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>PER</p>
             </div>
 
           </div>
@@ -96,12 +96,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <GiFamilyTree id='icon'/>
+              {/* <GiFamilyTree id='icon'/> */}
               <h2 className='services__card__entete__title'>Transmission du patrimoine</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>ASSURANCE VIE</p>
             </div>
             </div>
           </div>
@@ -122,12 +122,12 @@ function Services() {
         <SwiperSlide>
         <div className='services__card'>
             <div className='services__card__entete'>
-              <BiBuildings id='icon'/>
+              {/* <BiBuildings id='icon'/> */}
               <h2 className='services__card__entete__title'>Investissements immobiliers</h2>
             </div>
 
             <div className='services__texte'>
-              <p className='services__texte__p'>Vous souhaitez investir dans l'immobilier ? Contactez nous</p>
+              <p className='services__texte__p'>PINEL, LMNP, MALRAUX, DEFICIT FONCIER, SCPI</p>
             </div>
 
         </div>
@@ -136,12 +136,12 @@ function Services() {
         <SwiperSlide>
         <div className='services__card'>
             <div className='services__card__entete'>
-              <BsCalculator id='icon'/>
-              <h2 className='services__card__entete__title'>Réduction d'impôts</h2>
+              {/* <BsCalculator id='icon'/> */}
+              <h2 className='services__card__entete__title'>Réduction<br></br> d'impôts</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>DISPOSITIF IMMOBILIER, GIRARDIN INDUSTRIEL, SCPI FISCAL</p>
             </div>
 
           </div>
@@ -152,12 +152,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <GiReceiveMoney id='icon'/>
+              {/* <GiReceiveMoney id='icon'/> */}
               <h2 className='services__card__entete__title'>Investissements Financiers</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>CTO PEA, OPCI, SICAV, CRYPTO MONNAIE</p>
             </div>
 
           </div>
@@ -168,8 +168,8 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <AiOutlineStock id='icon'/>
-              <h2 className='services__card__entete__title'>Analyse boursière</h2>
+              {/* <AiOutlineStock id='icon'/> */}
+              <h2 className='services__card__entete__title'>Analyse<br></br> boursière</h2>
             </div>
 
             <div className='services__texte'>
@@ -183,12 +183,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <MdFamilyRestroom id='icon'/>
+              {/* <MdFamilyRestroom id='icon'/> */}
               <h2 className='services__card__entete__title'>Préparation retraite</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>PER</p>
             </div>
 
           </div>
@@ -199,12 +199,12 @@ function Services() {
             
             <div className='services__card__entete'>
 
-              <GiFamilyTree id='icon'/>
+              {/* <GiFamilyTree id='icon'/> */}
               <h2 className='services__card__entete__title'>Transmission du patrimoine</h2>
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>ASSURANCE VIE</p>
             </div>
 
           </div>

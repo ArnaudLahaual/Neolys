@@ -7,7 +7,10 @@
     flex-direction: column;
     background-color: #f2f2f2;
     padding: 50px;
-
+    
+    &__text {
+        text-align: center;
+    }
     &__admins {
         padding-bottom: 30px;
 
@@ -24,7 +27,6 @@
     }
     
     &__card {
-        background-color: black;
         margin: 30px;
         border-radius: 20px;
         width: 300px;
@@ -47,8 +49,14 @@
         }
 
         &__name {
-            color: rgb(201, 178, 99);
+            color: black;
             font-size: 20px;
+
+            &__text {
+                text-align: center;
+                text-transform: uppercase;
+                color:rgb(201, 178, 99);
+            }
         }
 
         &__statut {

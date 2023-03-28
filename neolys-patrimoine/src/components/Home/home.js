@@ -1,6 +1,6 @@
 import './home.scss';
 import bureau3 from '../../assets/images/bureau3.jpg';
-import logo from '../../assets/logo/logo__black.png';
+import logo from '../../assets/logo/logoofficiel.png';
 
 function Home() {
   return (
@@ -16,9 +16,8 @@ function Home() {
           </div>
 
           <div className='presentation__texte'>
-            <p className='presentation__text'> Cabinet de conseil <br></br>en investissement et gestion de patrimoine</p>
+            <p className='presentation__text'> Cabinet de conseil <br></br>en investissement & gestion de patrimoine</p>
           </div>
-
       </div>
     </div>
   );

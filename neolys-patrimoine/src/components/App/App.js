@@ -33,8 +33,8 @@ function App() {
 
         <Header />
         <Home />
-        <Services />
         <Team />
+        <Services />
         <Atouts />
         <SlideShow />
         <Form />
