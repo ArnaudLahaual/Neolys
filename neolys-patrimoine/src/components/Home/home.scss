@@ -34,7 +34,7 @@ padding-top: 50px;
        width: 200px;
        height: 200px;
         object-fit: cover;
-        margin-top: 100px;
+
 
         @media(min-width: 768px){
     
@@ -67,4 +67,9 @@ padding-top: 50px;
         border-top: solid 2px rgb(201, 178, 99);
       margin: 32px;
     padding: 32px;
+    }
+
+    .construct {
+        color: wheat;
+        text-transform: uppercase;
     }

@@ -7,6 +7,10 @@ function Home() {
     <div className="home" id='home'>
         <div className='presentation'>
 
+          <div>
+            <h1 className='construct'>! site en construction !</h1>
+          </div>
+
           <div className='logo'>
             <img
                   className="presentation__image"
