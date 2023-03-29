@@ -8,7 +8,7 @@ function Team() {
   return (
     <div className="team" id='team'>
 
-        <p className='team__text'>Fort d’une expérience d’une dizaine d’année dans le milieu bancaire, nous souhaitons aujourd’hui nous orientez vers un conseil indépendant et de qualité au détriment de la quantité des grands groupes nationaux</p>
+        {/* <p className='team__text'>Fort d’une expérience d’une dizaine d’année dans le milieu bancaire, nous souhaitons aujourd’hui nous orientez vers un conseil indépendant et de qualité au détriment de la quantité des grands groupes nationaux</p> */}
         <div className='team__admins'>
 
           <div className='team__card'>
