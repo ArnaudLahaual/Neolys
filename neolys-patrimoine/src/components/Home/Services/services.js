@@ -73,7 +73,7 @@ function Services() {
             </div>
 
             <div className='services__texte'>
-              <p>BLABLABLABAL</p>
+              <p>Analyse boursière</p>
             </div>
 
           </div>
@@ -173,7 +173,7 @@ function Services() {
             </div>
 
             <div className='services__texte'>
-              <p>blabla</p>
+              <p>Analyse boursière</p>
             </div>
 
           </div>

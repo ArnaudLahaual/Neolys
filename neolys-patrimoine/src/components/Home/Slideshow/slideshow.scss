@@ -1,6 +1,7 @@
 .slideshow {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: white;
 
     &__title {
         text-align: center;
@@ -21,6 +22,7 @@
     @media(min-width: 768px){
       display: flex;
       justify-content: space-evenly;
+      flex-direction: row;
   }
 
     &__logo{

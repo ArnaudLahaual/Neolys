@@ -1,6 +1,10 @@
 import './home.scss';
-import bureau3 from '../../assets/images/bureau3.jpg';
 import logo from '../../assets/logo/logoofficiel.png';
+import Team from './Team/team';
+import Services from './Services/services';
+import Atouts from './Atouts/atouts';
+import SlideShow from './Slideshow/slideshow';
+import Form from './Form/form';
 
 function Home() {
   return (
@@ -19,6 +23,12 @@ function Home() {
             <p className='presentation__text'> Cabinet de conseil <br></br>en investissement & gestion de patrimoine</p>
           </div>
       </div>
+
+                  <Team />
+                  <Services />
+                  <Atouts />
+                  <SlideShow />
+                  <Form />
     </div>
   );
 }

@@ -1,10 +1,12 @@
 import './footer.scss';
 import {BsFacebook,BsLinkedin} from 'react-icons/bs';
 import {GrInstagram} from 'react-icons/gr';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
-
+  
   return (
+
     <div className="footer">
 
         <div className='footer__contact'>
@@ -18,14 +20,22 @@ function Footer() {
           </ul>
         </div>
 
+
         <div className='footer__contact__mentions'>
           <ul className='footer__contact__mentions__links'>
-            <li className='footer__contact__mentions__links__link'>Mentions légales</li>
-            <li className='footer__contact__mentions__links__link'>Politique de confidentialité</li>
-            <li className='footer__contact__mentions__links__link'>CGU</li>
+            
+              <NavLink to="/mentions" end className='footer__contact__mentions__links__link'> Mentions légales</NavLink>
+                <br></br>
+              <NavLink to="/" end className='footer__contact__mentions__links__link'> Politique de Confidentialité</NavLink>
+              <br></br>
+              <NavLink to="/"end className='footer__contact__mentions__links__link'> CGU</NavLink>
+          
+            
             <li className='footer__contact__mentions__links__link'>Neolys Patrimoine<br></br>18 Rue des Perrières<br></br>34170 Castelnau-le-lez</li>
           </ul>
         </div>
+
+
     </div>
   );
 }
