@@ -6,7 +6,7 @@ import { FiMenu } from 'react-icons/fi';
 import { FaTimes } from 'react-icons/fa';
 import {useSelector,useDispatch} from 'react-redux';
 import { toggleBurger,closeBurger } from '../../actions/neolys';
-import {useLocation} from 'react-router-dom';
+import {useLocation, Link, NavLink} from 'react-router-dom';
 import { useEffect } from 'react';
 
 import {AiFillInstagram} from 'react-icons/ai';

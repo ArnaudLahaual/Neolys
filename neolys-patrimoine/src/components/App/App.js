@@ -7,12 +7,15 @@ import Services from '../Home/Services/services';
 import SlideShow from '../Home/Slideshow/slideshow';
 import Form from '../Home/Form/form';
 import 'semantic-ui-css/semantic.min.css';
-import { useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Switch, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
 import Footer from '../Footer/footer';
 import Loading from './Loading/loading';
 import { useSelector } from 'react-redux';
+import Mentions from '../Footer/Mentions/mentions';
+
+
 
 
 function App() {
@@ -35,15 +38,16 @@ function App() {
   return  (
 
     <div className="app" id='app'>
-
-        <Header />
-        <Home />
-        <Team />
-        <Services />
-        <Atouts />
-        <SlideShow />
-        <Form />
-        <Footer />
+          <Header />
+            <main>
+                  <Home />
+                  <Team />
+                  <Services />
+                  <Atouts />
+                  <SlideShow />
+                  <Form />
+            </main>
+          <Footer />
 
     </div>
   );
