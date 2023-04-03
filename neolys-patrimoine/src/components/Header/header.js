@@ -31,18 +31,20 @@ function handleClick() {
     <div className="header">
           {/* logo */}
            <div className='logo'>
-              <img
-              className="header__logoNeolys"
-              src={logo}
-              alt="logoNeolys"
-            />
+              <a href='#home'>
+                  <img 
+                  className="header__logoNeolys"
+                  src={logo}
+                  alt="logoNeolys"
+                />
+              </a>
           </div>
           
     <div className="navbar">
 
           {/* menu */}
           <ul className='navbar__menu'>
-              <li><a href='#services'  className='navbar__links'>Présentation</a></li>
+              <li><a href='#team'  className='navbar__links'>Présentation</a></li>
               <li><a href='#services'  className='navbar__links'>services</a></li>
               <li><a href='#agrements'  className='navbar__links'>agréments</a></li>
               <li><a href='#contacts'  className='navbar__links'>Contact</a></li>
@@ -53,11 +55,10 @@ function handleClick() {
           { isBurgerOpen &&
           
           <ul className='navbar__mobile'>
-              <li onClick={handleClick}><a href='#app' className='navbar__links__mobile'>Home</a></li>
+              <li onClick={handleClick}><a href='#team' className='navbar__links__mobile'>Présentation</a></li>
               <li onClick={handleClick}><a href='#services'  className='navbar__links__mobile'>Nos services</a></li>
-              <li onClick={handleClick}><a href='#team' className='navbar__links__mobile'>Team</a></li>
-              <li onClick={handleClick}><a href='#agrements'  className='navbar__links__mobile'>Nos agréments</a></li>
-              <li onClick={handleClick}><a href='#contacts'  className='navbar__links__mobile'>Contacts</a></li>
+              <li onClick={handleClick}><a href='#agrements'  className='navbar__links__mobile'>agréments</a></li>
+              <li onClick={handleClick}><a href='#contacts'  className='navbar__links__mobile'>Contact</a></li>
 
               <div className='navbar__mobile__social'>
                 <li onClick={handleClick}><a href='https://www.linkedin.com/company/neolys-patrimoine/about/' target="_blank"  className='navbar__links__mobile'><BsLinkedin size={20} /></a></li>

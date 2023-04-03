@@ -1,15 +1,10 @@
 import './home.scss';
-import bureau3 from '../../assets/images/bureau3.jpg';
 import logo from '../../assets/logo/logoofficiel.png';
 
 function Home() {
   return (
     <div className="home" id='home'>
         <div className='presentation'>
-
-          <div>
-            <h1 className='construct'>! site en construction !</h1>
-          </div>
 
           <div className='logo'>
             <img
