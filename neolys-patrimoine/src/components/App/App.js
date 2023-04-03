@@ -12,6 +12,7 @@ import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
 import Footer from '../Footer/footer';
 import { useSelector } from 'react-redux';
+import Mentions from '../Footer/Mentions/mentions';
 
 
 
@@ -39,7 +40,10 @@ function App() {
     <div className="app" id='app'>
           <Header />
             <main>
-                  <Home />
+              <Routes>
+                <Route path="/" exact element={<Home />} />
+                <Route path="/mentions" element={<Mentions />} />
+              </Routes>
             </main>
           <Footer />
 

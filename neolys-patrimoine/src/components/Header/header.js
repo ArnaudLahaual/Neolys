@@ -31,7 +31,7 @@ function handleClick() {
     <div className="header">
           {/* logo */}
            <div className='logo'>
-              <a href='#home'>
+              <a href='/'>
                   <img 
                   className="header__logoNeolys"
                   src={logo}
@@ -74,7 +74,7 @@ function handleClick() {
 
         <div className='icon-burger' 
           onClick={handleClick}>
-            { isBurgerOpen ? <FaTimes size={20} /> : <FiMenu size={20} />  }
+            { isBurgerOpen ? <FaTimes size={30} /> : <FiMenu size={30} />  }
             
         </div>
 
