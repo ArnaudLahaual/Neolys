@@ -11,9 +11,8 @@ import { BrowserRouter as Router, Route, Routes, Switch, useLocation } from 'rea
 import { useEffect } from 'react';
 import Atouts from '../Home/Atouts/atouts';
 import Footer from '../Footer/footer';
-import Loading from './Loading/loading';
 import { useSelector } from 'react-redux';
-import Mentions from '../Footer/Mentions/mentions';
+
 
 
 
@@ -41,11 +40,6 @@ function App() {
           <Header />
             <main>
                   <Home />
-                  <Team />
-                  <Services />
-                  <Atouts />
-                  <SlideShow />
-                  <Form />
             </main>
           <Footer />
 
