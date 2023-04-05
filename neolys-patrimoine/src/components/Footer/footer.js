@@ -24,11 +24,11 @@ function Footer() {
         <div className='footer__contact__mentions'>
           <ul className='footer__contact__mentions__links'>
             
-              <NavLink to="/mentions" end className='footer__contact__mentions__links__link'> Mentions légales</NavLink>
+              {/* <NavLink to="/mentions" end className='footer__contact__mentions__links__link'> Mentions légales</NavLink>
                 <br></br>
               <NavLink to="/" end className='footer__contact__mentions__links__link'> Politique de Confidentialité</NavLink>
               <br></br>
-              <NavLink to="/"end className='footer__contact__mentions__links__link'> CGU</NavLink>
+              <NavLink to="/"end className='footer__contact__mentions__links__link'> CGU</NavLink> */}
           
             
             <li className='footer__contact__mentions__links__link'>Neolys Patrimoine<br></br>18 Rue des Perrières<br></br>34170 Castelnau-le-lez</li>

@@ -2,21 +2,12 @@ import './app.scss'
 import Header from '../Header/header';
 import React from 'react';
 import Home from '../Home/home';
-import Team from '../Home/Team/team';
-import Services from '../Home/Services/services';
-import SlideShow from '../Home/Slideshow/slideshow';
-import Form from '../Home/Form/form';
 import 'semantic-ui-css/semantic.min.css';
 import { BrowserRouter as Router, Route, Routes, Switch, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import Atouts from '../Home/Atouts/atouts';
 import Footer from '../Footer/footer';
 import { useSelector } from 'react-redux';
 import Mentions from '../Footer/Mentions/mentions';
-
-
-
-
 
 function App() {
 
@@ -34,7 +25,6 @@ function App() {
     [location],
   );
 
-  
   return  (
 
     <div className="app" id='app'>
