@@ -9,6 +9,7 @@ import Footer from '../Footer/footer';
 import { useSelector } from 'react-redux';
 import Mentions from '../Footer/Mentions/mentions';
 import Cgu from '../Footer/CGU/cgu';
+import Confident from '../Footer/Confident/confident';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/" exact element={<Home />} />
                 <Route path="/mentions" element={<Mentions />} />
                 <Route path="/cgu" element={<Cgu />} />
+                <Route path="/confident" element={<Confident />} />
               </Routes>
             </main>
           <Footer />

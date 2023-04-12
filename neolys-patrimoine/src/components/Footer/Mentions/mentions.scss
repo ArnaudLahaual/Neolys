@@ -1,11 +1,30 @@
 .mentions {
     padding-top: 120px;
+    margin: 20px;
+
+    &__title {
+
+    }
+
+    &__text{
+        text-align: justify;
+    }
 }
 
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+
+        @media(min-width: 768px){
+            display: flex;
+            flex-direction: row;
+            }
+    }
 
     &__title {
         display: flex;

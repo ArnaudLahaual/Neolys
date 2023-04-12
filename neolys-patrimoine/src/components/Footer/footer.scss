@@ -36,14 +36,24 @@
         padding: 40px;
 
 &__mentions {
+
+    
    
     &__links {
         width: 100%;
         padding: 0px;
+        list-style-type: none;
+
+   
    
         &__link {
             list-style-type: none;
             text-align: center;
+            color: black;
+
+            @media(min-width: 768px){
+               padding: 20px;
+                }
         }
     }
 }
@@ -64,6 +74,7 @@
             flex-direction: row;
             justify-content: space-around;
             padding: 0px;
+            padding-top: 20px;
 
             &__item > a {
                 color: black;
@@ -71,4 +82,5 @@
         }
     }
 }
+
 

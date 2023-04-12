@@ -60,7 +60,7 @@ const {
   return (
     <div className="registration" id='contacts'>
 
-        <h1 className='registration__form__title '>Formulaire de Contact</h1>
+        <h1 className='registration__form__title '>Formulaire de Contact*</h1>
     
         <form className='registration__form' name='contact' onSubmit={handleSubmit}>
 
@@ -70,7 +70,7 @@ const {
       <div className='name'>
           {/* Nom */}
             <label htmlFor='lastname' className='registration__form__label' id='name'>
-                Nom* 
+                Nom 
                 <input
                 onChange={handleChange}
                 value={lastname}
@@ -84,7 +84,7 @@ const {
 
             {/* Prénom */}
               <label htmlFor="firstname" className='registration__form__label'>
-                Prénom*
+                Prénom
                 <input
                 onChange={handleChange}
                 value={firstname}
@@ -99,7 +99,7 @@ const {
   <div className='infos'>
               {/* Email */}
               <label htmlFor="mail" className='registration__form__label'>
-                Email*
+                Email
                 <input
                 onChange={handleChange}
                 value={mail}
@@ -113,7 +113,7 @@ const {
 
               {/* Téléphone */}
               <label htmlFor="tel" className='registration__form__label'>
-                Téléphone*
+                Téléphone
                 <input
                 onChange={handleChange}
                 value={tel}
@@ -139,6 +139,7 @@ const {
                   name="message"
                 />
               </div>
+              
       </div>
   </div>
 
@@ -153,6 +154,7 @@ const {
                 </div>
                 <span>Envoyer</span>
               </button>
+              <p className='textezone__avert'>*Nous garantissons la sécurité de vos données</p>
         </form>
     </div>
   );

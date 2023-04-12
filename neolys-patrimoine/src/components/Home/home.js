@@ -11,8 +11,6 @@ function Home() {
     <div className="home" id='home'>
         <div className='presentation'>
 
-        <h1 className='construction'>Site en maintenance <br></br></h1>
-
           <div className='logo'>
             <img
                   className="presentation__image"
