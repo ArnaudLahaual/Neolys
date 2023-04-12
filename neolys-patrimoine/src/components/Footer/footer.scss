@@ -21,7 +21,7 @@
         margin: 0px;
 
         &__link {
-            margin: 10px;
+    
             border-bottom: black 2px solid;
         }
     }
@@ -38,8 +38,12 @@
 &__mentions {
    
     &__links {
+        width: 100%;
+        padding: 0px;
+   
         &__link {
             list-style-type: none;
+            text-align: center;
         }
     }
 }
@@ -67,3 +71,4 @@
         }
     }
 }
+

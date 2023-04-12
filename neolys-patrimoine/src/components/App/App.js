@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Footer from '../Footer/footer';
 import { useSelector } from 'react-redux';
 import Mentions from '../Footer/Mentions/mentions';
+import Cgu from '../Footer/CGU/cgu';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
               <Routes>
                 <Route path="/" exact element={<Home />} />
                 <Route path="/mentions" element={<Mentions />} />
+                <Route path="/cgu" element={<Cgu />} />
               </Routes>
             </main>
           <Footer />

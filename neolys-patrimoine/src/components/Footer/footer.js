@@ -2,6 +2,8 @@ import './footer.scss';
 import {BsFacebook,BsLinkedin} from 'react-icons/bs';
 import {GrInstagram} from 'react-icons/gr';
 import { NavLink } from 'react-router-dom';
+import {GrLocation} from 'react-icons/gr';
+import {BiInfoCircle} from 'react-icons/bi';
 
 function Footer() {
   
@@ -23,15 +25,21 @@ function Footer() {
 
         <div className='footer__contact__mentions'>
           <ul className='footer__contact__mentions__links'>
-            
-              {/* <NavLink to="/mentions" end className='footer__contact__mentions__links__link'> Mentions légales</NavLink>
-                <br></br>
-              <NavLink to="/" end className='footer__contact__mentions__links__link'> Politique de Confidentialité</NavLink>
-              <br></br>
-              <NavLink to="/"end className='footer__contact__mentions__links__link'> CGU</NavLink> */}
-          
-            
-            <li className='footer__contact__mentions__links__link'>Neolys Patrimoine<br></br>18 Rue des Perrières<br></br>34170 Castelnau-le-lez</li>
+
+      <div className='about'>
+              <h1 className='about__title'> <BiInfoCircle />A propos</h1>
+              <NavLink to="/" end className='footer__contact__mentions__links__link'> Home</NavLink>
+              <NavLink to="/cgu" end className='footer__contact__mentions__links__link'> Cgu</NavLink>
+              <NavLink to="/mentions" end className='footer__contact__mentions__links__link'> Mentions légales</NavLink>
+      </div>
+
+      <div className='adress'>
+              <h1 className='adress__title'> <GrLocation />Adresse</h1>
+
+            <li className='footer__contact__mentions__links__link'>Neolys Patrimoine<br></br>18 Rue des Perrières<br></br>34170 Castelnau-le-lez
+            </li>
+    
+      </div>
           </ul>
         </div>
 
