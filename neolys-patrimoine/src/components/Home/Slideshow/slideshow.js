@@ -1,6 +1,5 @@
 import './slideshow.scss';
 import React from 'react';
-import {Slide} from 'react-slideshow-image';
 import anacofi from '../../../assets/logo/anacofi.png';
 import orias from '../../../assets/logo/orias.jpg';
 import gouv from '../../../assets/logo/gouv.png';

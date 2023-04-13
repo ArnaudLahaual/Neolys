@@ -19,6 +19,7 @@
     &__links {
         display: flex;
         flex-direction: column;
+        color: white;
 
         @media(min-width: 768px){
             display: flex;
@@ -40,6 +41,7 @@
     align-items: center;
     padding-top: 20px;
     text-align: center;
+
     
     &__title {
         display: flex;
@@ -47,5 +49,6 @@
         align-items: center;
         font-size: 15px;
         text-align: center;
+
     }
 }

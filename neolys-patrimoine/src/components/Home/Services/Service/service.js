@@ -2,7 +2,6 @@ import './service.scss';
 import data from '../../../../data/services.js';
 
 function Service( {title, texte}) {
-    console.log(data);
 
     return (
         <div className="services" id='services'>

@@ -14,7 +14,7 @@ import Service from "./Service/service";
 import 'animate.css';
 
 function Services() {
-  console.log(data);
+
     return (
       <div className="services" id='services'>
         <div className="services__grille">
@@ -25,83 +25,6 @@ function Services() {
         ))
         }
           
-          {/* <div className='services__card'>
-            
-              <div className='services__card__entete'>
-
-
-                <h2 className='services__card__entete__title'>Investissements immobiliers</h2>
-              </div>
-
-              <div className='services__texte'>
-                <p className='services__texte__p'>PINEL, LMNP, MALRAUX, DEFICIT FONCIER, SCPI</p>
-              </div>
-
-          </div>
-
-          <div className='services__card'>
-            
-            <div className='services__card__entete'>
-
-              <h2 className='services__card__entete__title'>Réduction<br></br> d'impôts</h2>
-            </div>
-
-            <div className='services__texte'>
-              <p>DISPOSITIF IMMOBILIER, GIRARDIN INDUSTRIEL, SCPI FISCAL</p>
-            </div>
-
-          </div>
-
-          <div className='services__card'>
-            
-            <div className='services__card__entete'>
-
-              <h2 className='services__card__entete__title'>Investissements Financiers</h2>
-            </div>
-
-            <div className='services__texte'>
-              <p>CTO PEA, OPCI, SICAV, CRYPTO MONNAIE</p>
-            </div>
-
-          </div>
-
-          <div className='services__card'>
-            
-            <div className='services__card__entete'>
-
-              <h2 className='services__card__entete__title'>Analyse<br></br> boursière</h2>
-            </div>
-
-            <div className='services__texte'>
-              <p>Analyse boursière</p>
-            </div>
-
-          </div>
-
-          <div className='services__card'>
-            
-            <div className='services__card__entete'>
-
-              <h2 className='services__card__entete__title'>Préparation retraite</h2>
-            </div>
-
-            <div className='services__texte'>
-              <p>PER</p>
-            </div>
-
-          </div>
-
-          <div className='services__card'>
-            
-            <div className='services__card__entete'>
-
-              <h2 className='services__card__entete__title'>Transmission du patrimoine</h2>
-            </div>
-
-            <div className='services__texte'>
-              <p>ASSURANCE VIE</p>
-            </div>
-            </div> */}
           </div>
 
           {/* CAROUSEL */}
@@ -209,8 +132,6 @@ function Services() {
 
         </SwiperSlide>
       </Swiper>
-
-          
 
     </div>
     );

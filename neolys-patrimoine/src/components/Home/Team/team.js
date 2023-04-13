@@ -1,6 +1,8 @@
 import './team.scss';
 import borisbg from '../../../assets/images/borisofficiel.png';
 import cyrilbg from '../../../assets/images/cyrilofficiel.png';
+import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -8,9 +10,12 @@ function Team() {
   return (
     <div className="team" id='team'>
 
-        {/* <p className='team__text'>Fort d’une expérience d’une dizaine d’année dans le milieu bancaire, nous souhaitons aujourd’hui nous orientez vers un conseil indépendant et de qualité au détriment de la quantité des grands groupes nationaux</p> */}
         <div className='team__admins'>
 
+          <div className='team__admins__title'>
+            <p className='team__admins__title__text'>"Bienvenue chez Neolys Patrimoine notre cabinet de conseil en investissement et gestion de patrimoine. <br></br><br></br>Nous sommes une équipe de professionnels passionnés par le domaine de l'investissement et de la gestion de patrimoine.<br></br><br></br> Nous avons pour mission d'aider nos clients à atteindre leurs objectifs financiers à long terme en leur fournissant des conseils personnalisés et adaptés à leur situation spécifique."</p>
+          </div>
+          
           <div className='team__card'>
             <div className="team__picture">
               <img id='img'

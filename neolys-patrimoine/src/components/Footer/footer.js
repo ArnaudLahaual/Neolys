@@ -4,6 +4,7 @@ import {GrInstagram} from 'react-icons/gr';
 import { NavLink } from 'react-router-dom';
 import {GrLocation} from 'react-icons/gr';
 import {BiInfoCircle} from 'react-icons/bi';
+import 'animate.css';
 
 function Footer() {
   
@@ -16,9 +17,9 @@ function Footer() {
           <p className='footer__contact__num'></p>
 
           <ul className='footer__contact__social'>
-            <li className='footer__contact__social__item'><a href='https://www.facebook.com/profile.php?id=100088345197764' target="_blank"><BsFacebook  size={30}/></a></li>
-            <li className='footer__contact__social__item'><a href='https://www.instagram.com/neolyspatrimoine/' target="_blank"><GrInstagram size={30} /></a></li>
-            <li className='footer__contact__social__item'><a href='https://www.linkedin.com/company/neolys-patrimoine/about/' target="_blank"><BsLinkedin  size={30}/></a></li>
+            <li className='footer__contact__social__item' id='fb'><a href='https://www.facebook.com/profile.php?id=100088345197764' target="_blank"><BsFacebook color='#1198F6'  size={30}/></a></li>
+            <li className='footer__contact__social__item' id='insta'><a href='https://www.instagram.com/neolyspatrimoine/' target="_blank"><GrInstagram color='#fd1d1d' size={30} /></a></li>
+            <li className='footer__contact__social__item' id='lkn'><a href='https://www.linkedin.com/company/neolys-patrimoine/about/' target="_blank"><BsLinkedin color='#007BB5'  size={30}/></a></li>
           </ul>
         </div>
 

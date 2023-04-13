@@ -17,6 +17,19 @@
         @media(min-width: 768px){
            display: flex;
         }
+
+        &__title {
+            text-align: center;
+            width: 100%;
+
+            &__text {
+                color:black;
+                font-size: 15px;
+                font-family: "roboto";
+                letter-spacing: 1px;
+            }
+
+        }
     }
 
     &__title {
@@ -60,7 +73,7 @@
         }
 
         &__statut {
-            color: #FFFFFF
+            color: #FFFFFF;
 
         }
     }
