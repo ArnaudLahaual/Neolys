@@ -55,7 +55,7 @@ function handleClick() {
           { isBurgerOpen &&
           
           <ul className='navbar__mobile'>
-              <li onClick={handleClick}><a href='/' className='navbar__links__mobile'>Home</a></li>
+              <li onClick={handleClick}><a href='/' className='navbar__links__mobile'>Accueil</a></li>
               <li onClick={handleClick}><a href='#team' className='navbar__links__mobile'>Présentation</a></li>
               <li onClick={handleClick}><a href='#services'  className='navbar__links__mobile'>Nos services</a></li>
               <li onClick={handleClick}><a href='#agrements'  className='navbar__links__mobile'>agréments</a></li>
