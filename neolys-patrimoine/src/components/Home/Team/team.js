@@ -3,9 +3,6 @@ import borisbg from '../../../assets/images/borisofficiel.png';
 import cyrilbg from '../../../assets/images/cyrilofficiel.png';
 import { NavLink } from 'react-router-dom';
 
-
-
-
 function Team() {
   return (
     <div className="team" id='team'>

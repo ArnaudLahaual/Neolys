@@ -11,6 +11,11 @@ import Mentions from '../Footer/Mentions/mentions';
 import Cgu from '../Footer/CGU/cgu';
 import Confident from '../Footer/Confident/confident';
 import Description from '../Home/Description/description';
+import Assurance from '../Home/Cards/Assurance/assurance';
+import Biens from '../Home/Cards/Biens/biens';
+import Epargne from '../Home/Cards/Epargne/epargne';
+import Fiscalite from '../Home/Cards/Fiscalite/fiscalite';
+import Investissement from '../Home/Cards/Fiscalite/fiscalite';
 
 function App() {
 
@@ -39,6 +44,11 @@ function App() {
                 <Route path="/cgu" element={<Cgu />} />
                 <Route path="/confident" element={<Confident />} />
                 <Route path="/description" element={<Description />} />
+                <Route path="/biens" element={<Biens />} />
+                <Route path="/assurance" element={<Assurance />} />
+                <Route path="/epargne" element={<Epargne />} />
+                <Route path="/fiscalite" element={<Fiscalite />} />
+                <Route path="/investissement" element={<Investissement />} />
               </Routes>
             </main>
           <Footer />
