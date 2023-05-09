@@ -6,6 +6,7 @@ import Atouts from './Atouts/atouts';
 import SlideShow from './Slideshow/slideshow';
 import Form from './Form/form';
 import Cards from './Cards/cards';
+import Cartes from './Cartes/cartes';
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       </div>
 
                   <Team />
+                  <Cartes />
                   <Cards />
                   <Services />
                   <Atouts />
