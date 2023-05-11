@@ -33,12 +33,11 @@ function Home() {
 
                   <Team />
                   <Cartes />
-                  <Atouts />
                   <SlideShow />
                   <Form />
       
       <div className='button__home'>
-          <a href='#home'><BsArrowUpCircleFill size={40}/></a>
+          <a href='#home'><BsArrowUpCircleFill size={40} color='black'/></a>
       </div>
                   
     </div>

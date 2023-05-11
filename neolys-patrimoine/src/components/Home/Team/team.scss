@@ -15,7 +15,11 @@
         padding-bottom: 30px;
 
         @media(min-width: 768px){
-           display: flex;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         &__title {
@@ -24,9 +28,8 @@
 
             &__text {
                 color:black;
-                font-size: 15px;
-                font-family: "roboto";
-                letter-spacing: 1px;
+                font-size: 19px;
+                font-family: "MazzardL-SemiBold";
             }
 
         }

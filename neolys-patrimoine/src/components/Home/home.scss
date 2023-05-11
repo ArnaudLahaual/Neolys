@@ -13,8 +13,8 @@ background-color: #020202;
     object-fit: cover;
     overflow: hidden;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
 
 
     &__text {
@@ -22,7 +22,7 @@ background-color: #020202;
         text-transform: uppercase;
         text-align: center;
         padding: 10px;
-        font-family: 'Merriweather Sans';
+        font-family: 'MazzardL-SemiBold';
         color:rgb(201, 178, 99);
         font-weight: bold;
         border-radius: 40px 999em 999em 40px;

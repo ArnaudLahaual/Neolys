@@ -6,14 +6,33 @@ import { FiMenu } from 'react-icons/fi';
 import { FaTimes } from 'react-icons/fa';
 import {useSelector,useDispatch} from 'react-redux';
 import { toggleBurger,closeBurger } from '../../actions/neolys';
-import {useLocation, Link, NavLink} from 'react-router-dom';
-import { useEffect } from 'react';
+import {useLocation} from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 import {AiFillInstagram} from 'react-icons/ai';
 import {BsFacebook,BsLinkedin} from 'react-icons/bs';
 
 // == Composant
 function Header() {
+
+  //mise en place de la navbar qui s'efface au scroll
+
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+  
+  useEffect(() => {
+    function handleScroll() {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos, visible]);
+  
+
 const dispatch = useDispatch();
 const { pathname } = useLocation();
 
@@ -28,7 +47,7 @@ function handleClick() {
 }
 
   return (
-    <div className="header">
+    <div className={`header ${visible ? '' : 'hidden'}`}>
           {/* logo */}
            <div className='logo'>
               <a href='/'>
