@@ -1,8 +1,9 @@
-import { TOGGLE_BURGER, CLOSE_BURGER  } from "../actions/neolys";
+import { TOGGLE_BURGER, CLOSE_BURGER, ISHOVERING  } from "../actions/neolys";
 
 export const initialState = {
     isBurgerOpen: false,
     loading: true,
+    isHovering: false,
   };
 
   function reducer(state = initialState, action = {}) {
@@ -16,6 +17,11 @@ export const initialState = {
         return {
           ...state,
           isBurgerOpen: false,
+        };
+        case ISHOVERING:
+        return {
+          ...state,
+          isHovering: !state.isHovering,
         };
       
       default:

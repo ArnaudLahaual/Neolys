@@ -7,3 +7,8 @@ export const CLOSE_BURGER = 'CLOSE_BURGER';
 export const closeBurger = () => ({
   type: CLOSE_BURGER,
 });
+
+export const ISHOVERING = 'ISHOVERING';
+export const isHovering  = () => ({
+  type: ISHOVERING,
+});

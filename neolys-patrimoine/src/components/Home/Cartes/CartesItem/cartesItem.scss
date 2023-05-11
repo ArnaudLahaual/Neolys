@@ -1,18 +1,40 @@
-.cartes {
+.carte {
 
-    &__carte {
         background-color: black;
+        opacity: 0.85;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 300px;
         height: 230px;
-        margin: 10px;
         justify-content: center;
         color: wheat;
+        margin-top: 30px;
+        transition: 2s ease-in-out;
+
+        &__title {
+
+        }
+
+        &__text {
+            
+        }
+
+        &__more {
+            text-transform: uppercase;
+            background-color:white;
+            padding: 15px;
+            color: black;
+            
+            &:hover {
+                background-color: rgb(201, 178, 99);
+                color: black;
+            }
+            
+            
+        }
+
+
     }
 
-    &__more {
-        display: none;
-    }
-}
+
