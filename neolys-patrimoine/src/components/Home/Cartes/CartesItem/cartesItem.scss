@@ -14,10 +14,9 @@
 
         &__title {
 
-        }
-
-        &__text {
-            
+            &__title {
+                font-family: "MazzardL-SemiBold";
+            }
         }
 
         &__more {
@@ -25,16 +24,18 @@
             background-color:white;
             padding: 15px;
             color: black;
+            font-size: 21px;
+
+            &__text {
+                color: black;
+            }
             
             &:hover {
                 background-color: rgb(201, 178, 99);
                 color: black;
+                transition-duration: 1s;
             }
-            
-            
         }
-
-
     }
 
 
