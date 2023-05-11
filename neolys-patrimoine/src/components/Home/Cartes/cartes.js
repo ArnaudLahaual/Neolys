@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 //assets
 import assurance from '../../../assets/images/assurance.jpg';
 import investissement from '../../../assets/images/investissement.jpg';
+import prevoyance from '../../../assets/images/biensdivers.jpg';
 
 
 const Cartes = () => {
@@ -16,10 +17,10 @@ const Cartes = () => {
     return(
        <div className="cartes">
 
-            <CartesItem title ="IMMOBILIER" link="" />
-            <CartesItem title ="FINANCIER" link="" img={investissement} />
-            <CartesItem title ="ASSURANCE" link="/assurance" />
-            <CartesItem title ="PREVOYANCE" link="/prevoyance" />
+            <CartesItem img={prevoyance} title ="IMMOBILIER" link="" />
+            <CartesItem img={prevoyance} title ="FINANCIER" link="" />
+            <CartesItem img={prevoyance} title ="ASSURANCE" link="/assurance" />
+            <CartesItem img={prevoyance} title ="PREVOYANCE" link="/prevoyance" />
             
 
 

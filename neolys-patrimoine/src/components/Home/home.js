@@ -8,6 +8,9 @@ import Form from './Form/form';
 import Cards from './Cards/cards';
 import Cartes from './Cartes/cartes';
 
+import {BsArrowUpCircleFill} from 'react-icons/bs';
+import { icons } from 'react-icons';
+
 function Home() {
   return (
     <div className="home" id='home'>
@@ -30,11 +33,14 @@ function Home() {
 
                   <Team />
                   <Cartes />
-                  <Cards />
-                  <Services />
                   <Atouts />
                   <SlideShow />
                   <Form />
+      
+      <div className='button__home'>
+          <a href='#home'><BsArrowUpCircleFill size={40}/></a>
+      </div>
+                  
     </div>
   );
 }

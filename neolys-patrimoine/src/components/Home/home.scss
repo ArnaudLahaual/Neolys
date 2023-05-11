@@ -1,6 +1,6 @@
 .home {
 background-color: #020202;
-padding-top: 6vh;
+// padding-top: 6vh;
 
 }
 
@@ -71,4 +71,12 @@ padding-top: 6vh;
     .construct {
         color: wheat;
         text-transform: uppercase;
+    }
+
+    .button__home {
+        position: fixed;
+        display: flex;
+        bottom: 20px;
+        right: 16px;
+        color: black;
     }

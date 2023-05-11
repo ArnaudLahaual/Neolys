@@ -19,7 +19,7 @@ const CartesItem = ({title, link,img}) => {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}>
 
-        {/* <img src={img}/> */}
+        <img src={img} alt=""></img>
         
         {isHovering ? (
             <div className="carte__more">

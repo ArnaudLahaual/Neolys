@@ -50,8 +50,8 @@ function App() {
                 <Route path="/fiscalite" element={<Fiscalite />} />
                 <Route path="/investissement" element={<Investissement />} />
               </Routes>
-            </main>
           <Footer />
+            </main>
 
     </div>
   );
