@@ -2,7 +2,11 @@ import React from "react";
 import CartesItem from "./CartesItem/cartesItem";
 import './cartes.scss';
 import { useSelector } from "react-redux";
-import { NavLink } from "react-router-dom";
+
+//assets
+import assurance from '../../../assets/images/assurance.jpg';
+import investissement from '../../../assets/images/investissement.jpg';
+
 
 const Cartes = () => {
 
@@ -13,9 +17,9 @@ const Cartes = () => {
        <div className="cartes">
 
             <CartesItem title ="IMMOBILIER" link="" />
-            <CartesItem title ="FINANCIER" link="" />
+            <CartesItem title ="FINANCIER" link="" img={investissement} />
             <CartesItem title ="ASSURANCE" link="/assurance" />
-            <CartesItem title ="PREVOYANCE" link="" />
+            <CartesItem title ="PREVOYANCE" link="/prevoyance" />
             
 
 

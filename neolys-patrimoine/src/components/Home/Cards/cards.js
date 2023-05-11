@@ -3,7 +3,6 @@ import CardItem from "./CardItem/cardItem";
 import './cards.scss';
 import assurance from '../../../assets/images/assurance.jpg';
 import biens from '../../../assets/images/biensdivers.jpg';
-// import epargne from '../../../assets/images/epargne.jpg';
 import fiscalite from '../../../assets/images/fiscalite.jpg';
 import investissement from '../../../assets/images/investissement.jpg';
 

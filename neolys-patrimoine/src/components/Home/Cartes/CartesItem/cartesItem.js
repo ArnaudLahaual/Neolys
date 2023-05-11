@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './cartesItem.scss';
 import { NavLink } from "react-router-dom";
 
-const CartesItem = ({title, link}) => {
+const CartesItem = ({title, link,img}) => {
 
     const [isHovering, setIsHovering] = useState(false);
 
@@ -16,15 +16,17 @@ const CartesItem = ({title, link}) => {
   
     return (
       <div className="carte"
-    
-        onMouseOver={handleMouseOver}
-        onMouseOut={handleMouseOut}>
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}>
+
+        {/* <img src={img}/> */}
+        
         {isHovering ? (
-                <div className="carte__more">
+            <div className="carte__more">
                  <NavLink to={link}> <p className="carte__more__text">En savoir plus</p></NavLink>  
                 </div>
             ) : (
-
+                
                 <>
                 <div className="carte__title">
                         <h1 className="carte__title__title">{title}</h1>
